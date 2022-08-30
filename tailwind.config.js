@@ -7,6 +7,10 @@ module.exports = {
   theme: {
     colors: {
       customblue: '#14094f',
+<<<<<<< HEAD
+=======
+      white: colors.white,
+>>>>>>> 043a45808aa6d3d2f8fd6eb2199f0fa252393843
       slate: colors.slate,
       gray: colors.gray,
       zinc: colors.zinc,
