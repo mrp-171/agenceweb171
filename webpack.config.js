@@ -31,10 +31,6 @@ module.exports = {
       template: path.resolve(__dirname, "./src/pages/services/index.html"),
       filename: "services.html",
     }),
-    new HtmlWebpackPlugin({
-      template: path.resolve(dirname, "./src/pages/contact/index.html"),
-      filename: "contact.html",
-    }),
     new CopyPlugin({
       patterns: [
         { from: "./src/assets/fonts/", to: "assets/fonts" },
