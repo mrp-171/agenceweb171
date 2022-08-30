@@ -1,5 +1,5 @@
-# Dependencies
-/node_modules
+# Dependancies
+/node_modules/
 
-# Production
-/dist
+# Production 
+/dist/
