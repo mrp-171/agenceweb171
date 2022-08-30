@@ -24,19 +24,17 @@ module.exports = {
       filename: "index.html",
     }),
     new HtmlWebpackPlugin({
-      template: path.resolve(__dirname, "./src/pages/services/index.html"),
-      filename: "services.html",
-    }),
-    new HtmlWebpackPlugin({
       template: path.resolve(__dirname, "./src/pages/contact/index.html"),
       filename: "contact.html",
     }),
-  ],
-  plugins: [
+    new HtmlWebpackPlugin({
+      template: path.resolve(__dirname, "./src/pages/services/index.html"),
+      filename: "services.html",
+    }),
     new CopyPlugin({
       patterns: [
-        { from: "source", to: "dest" },
-        { from: "other", to: "public" },
+        { from: "./src/assets/fonts", to: "./assets/fonts" },
+        { from: "./src/assets/img", to: "./assets/img" },
       ],
     }),
   ],
@@ -58,12 +56,12 @@ module.exports = {
         test: /\.m?js$/,
         exclude: /(node_modules|bower_components)/,
         use: {
-          loader: 'babel-loader',
+          loader: "babel-loader",
           options: {
-            presets: ['@babel/preset-env']
-          }
-        }
-      }
+            presets: ["@babel/preset-env"],
+          },
+        },
+      },
     ],
   },
 };
