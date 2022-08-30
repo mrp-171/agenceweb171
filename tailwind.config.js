@@ -6,6 +6,7 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     colors: {
+      customblue: '#14094f',
       white: '#ffffff',
       slate: colors.slate,
       gray: colors.gray,
