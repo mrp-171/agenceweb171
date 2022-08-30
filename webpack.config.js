@@ -2,7 +2,6 @@ const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const CopyPlugin = require("copy-webpack-plugin");
 
-
 module.exports = {
   entry: path.resolve(__dirname, "./src/app.js"),
   mode: "development",
@@ -34,8 +33,8 @@ module.exports = {
     }),
     new CopyPlugin({
       patterns: [
-        { from: "./src/assets/fonts/", to: "assets/fonts" },
-        { from: "./src/assets/img", to: "assets/img" },
+        { from: "./src/assets/fonts", to: "./assets/fonts" },
+        { from: "./src/assets/img", to: "./assets/img" },
       ],
     }),
   ],
@@ -57,12 +56,12 @@ module.exports = {
         test: /\.m?js$/,
         exclude: /(node_modules|bower_components)/,
         use: {
-          loader: 'babel-loader',
+          loader: "babel-loader",
           options: {
-            presets: ['@babel/preset-env']
-          }
-        }
-      }
+            presets: ["@babel/preset-env"],
+          },
+        },
+      },
     ],
   },
 };
