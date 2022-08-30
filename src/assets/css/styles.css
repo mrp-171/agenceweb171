@@ -3,23 +3,19 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'Roboto';
-  src: url('../fonts/Roboto/Roboto-Italic.ttf') format('truetype');
-  font-weight: 600;
-  font-style: normal;
+ 
 }
 
-.hello {
-  color: red;
-  font-family: "Roboto";
+.box-shadoww {
+  box-shadow: 5px 7px 15px 2px rgb(82 90 101 / 12%);
 }
 
-.bg-white {
-  background-color: white;
+.transition-1 {
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
 }
 
-.dark-mode {
-  background-color: black;
-  color: white;
-}
+
 

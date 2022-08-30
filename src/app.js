@@ -1,11 +1,8 @@
 import "./assets/css/styles.css";
 
-
-
-
 let button = document.getElementById("dark-mode");
 // pour vérifier si la valeur button est bien liée
-     console.log(button);  
+console.log(button);
 // Vérifier dans le navigateur
 
 let body = document.querySelector("body");
