@@ -5,10 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="../../assets/css/output.css" rel="stylesheet" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <title>Services</title>
   </head>
   <body class="bg-customblue">
@@ -28,7 +25,7 @@
       </nav>
       <div class="grid grid-cols-2">
         <div class="col-start-1">
-          <h1 class="text-skyblue text-5xl font-bold mt-60 ml-60 mb-10">
+          <h1 class="text-skyblue text-5xl font-bold mt-60 ml-80 mb-10">
             Bienvenue
           </h1>
           <p class="text-white mb-10 ml-10">
@@ -38,16 +35,17 @@
             mollitia, quam, iure natus?
           </p>
           <div class="mt-4 ml-60 transition-1">
-            <a
-              class="text-black text-base rounded-md capitalize font-medium mr-6 p-2.5 bg-white transition-1"
-              href=""
-              >About</a
-            >
-            <a
-              class="text-white rounded-md text-base capitalize font-medium p-2.5 border-white"
-              href=""
-              >Contact</a
-            >
+            <button class="relative py-2.5 pr-5 pl-5 cursor-pointer font-black uppercase text-3xl text-black bg-white box-shadow-low rounded z-0 overflow-hidden ">
+                About
+            </button>
+            <button class="relative ml-20 py-2.5 pr-5 pl-5 cursor-pointer font-black uppercase text-3xl text-white box-shadow-low rounded z-0 overflow-hidden">
+                Contact
+            </button>
+            <!-- <button class="">
+              <div class="left"></div>
+                Hover me!
+              <div class="right"></div>
+            </button> -->
           </div>
         </div>
         <div class="col-start-2 z-0">
@@ -84,49 +82,148 @@
       ></path>
     </svg>
     <section>
-      <div class="-mt-32 z-1">
-        <h1 class="flex justify-center font-bold text-white">Nos Services</h1>
+      <div class="-mt-96 z-1">
+        <h1 class="flex justify-center font-bold text-black">Nos Services</h1>
         <h1 class="flex justify-center text-5xl font-bold text-skyblue">
           Ce que nous faisons
         </h1>
       </div>
-      <div class="grid grid-cols-4">
-        <div class="ml-32 mt-24 col-start-1">
-          <img src="../../assets/img/coucou.png" alt="coucou" />
+      <!-- PREMIERE COLS -->
+      <div class="grid grid-cols-4 mt-24">
+        <div class="col-start-1">
+          <img class="ml-32 mt-32" src="../../assets/img/coucou.png" alt="coucou"/>
         </div>
         <div class="col-start-2 flex items-center mr-5">
-          <div class="no-underline bg-white h-80 w-full py-0 px-8 transition-1 content-center text-center">
+          <div id="cadre1"
+            class="no-underline bg-white h-80 w-full py-0 px-8 transition-1 content-center text-center hover:bg-violet-700 hover:text-white box-shadow-skybleu rounded z-0 overflow-hidden"
+          >
             <figure class="w-16 mt-auto mr-auto ml-auto mb-2.5 h-20 ">
-              <img class="mt-6" src="../../assets/img/it-icon.png" alt="icon"/>
+              <img class="mt-6 relative" src="../../assets/img/it-icon.png" alt="icon" />
             </figure>
             <a
               class="text-skyblue content-center text-center text-lg font-bold"
               href=""
               >Solution</a
             >
-            <p class="mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt eligendi porro sit reiciendis! Rem est animi velit obcaecati aspernatur optio illum nam eius voluptatem? Dicta odio magni amet eaque quibusdam!</p>
-            <h6 class="text-skyblue">Read more...
+            <p class="mt-5">
+              On est trop chaud
+            </p>
+            <h6 class="text-skyblue">
+              Read more...
               <i class="fas fa-caret-right mt-5"></i>
             </h6>
           </div>
         </div>
         <div class="col-start-3 flex items-center ml-5">
-          <div class="no-underline bg-white h-80 w-full py-0 px-8 transition-1 content-center text-center">
-            <figure class="w-16 mt-auto mr-auto ml-auto mb-2.5 h-20 ">
-              <img class="mt-6" src="../../assets/img/web-icon.png" alt="web-icon"/>
+          <div id="cadre1"
+            class="no-underline bg-white h-80 w-full py-0 px-8 content-center text-center hover:bg-violet-700 hover:text-white box-shadow-skybleu rounded z-0 overflow-hidden"
+          >
+            <figure class="w-16 mt-auto mr-auto ml-auto mb-2.5 h-20">
+              <img
+                class="mt-6"
+                src="../../assets/img/web-icon.png"
+                alt="web-icon"
+              />
             </figure>
             <a
               class="text-skyblue content-center text-center text-lg font-bold"
               href=""
               >Développement Web</a
             >
-            <p class="mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt eligendi porro sit reiciendis! Rem est animi velit obcaecati aspernatur optio illum nam eius voluptatem? Dicta odio magni amet eaque quibusdam!</p>
-            <h6 class="text-skyblue">Read more...
+            <p class="mt-5">
+              T KI
+            </p>
+            <h6 class="text-skyblue">
+              Read more...
               <i class="fas fa-caret-right mt-5"></i>
             </h6>
           </div>
         </div>
       </div>
+    <!-- DEUXIEME COLS -->
+      <div class="grid grid-cols-4 -mt-32">
+        <div class="col-start-2 flex items-center mr-5">
+          <div id="cadre1"
+            class="no-underline bg-white h-80 w-full py-0 px-8 content-center text-center hover:bg-violet-700 hover:text-white box-shadow-skybleu rounded z-0 overflow-hidden"
+          >
+            <figure class="w-16 mt-auto mr-auto ml-auto mb-2.5 h-20">
+              <img
+                class="mt-6"
+                src="../../assets/img/web-icon.png"
+                alt="web-icon"
+              />
+            </figure>
+            <a
+              class="text-skyblue content-center text-center text-lg font-bold"
+              href=""
+              >Développement Web</a
+            >
+            <p class="mt-5">
+              BIEN OU BIEN
+            </p>
+            <h6 class="text-skyblue">
+              Read more...
+              <i class="fas fa-caret-right mt-5"></i>
+            </h6>
+          </div>
+        </div>
+
+        <div class="col-start-3 flex items-center ml-7 z-0">
+          <div id="cadre1"
+            class="no-underline bg-white h-80 w-full py-0 px-8 transition-1 content-center text-center hover:bg-violet-700 hover:text-white box-shadow-skybleu rounded z-0 overflow-hidden"
+          >
+            <figure class="w-16 mt-auto mr-auto ml-auto mb-2.5 h-20">
+              <img
+                class="mt-6"
+                src="../../assets/img/web-icon.png"
+                alt="web-icon"
+              />
+            </figure>
+            <a
+              class="text-skyblue content-center text-center text-lg font-bold"
+              href=""
+              >Développement Web</a
+            >
+            <p class="mt-5">
+              M4EN FOU
+            </p>
+            <h6 class="text-skyblue">
+              Read more...
+              <i class="fas fa-caret-right mt-5"></i>
+            </h6>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="mt-32 pl-10">
+      <div class="grid grid-cols-1">
+        <div class="text-white font-bold">
+          <h1>Pourquoi nous choisir ?</h1>
+          <h1 class="text-5xl">
+            Protégez votre marque avec des solutions de cybersécurité et informatiques
+          </h1>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section>
+      <svg
+      class="-mt- z-1"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 1440 320"
+    >
+    <path fill="#f3f4f5" fill-opacity="1" d="M0,256L30,261.3C60,267,120,277,180,266.7C240,256,300,224,360,224C420,224,480,256,540,250.7C600,245,660,203,720,170.7C780,139,840,117,900,138.7C960,160,1020,224,1080,224C1140,224,1200,160,1260,154.7C1320,149,1380,203,1410,229.3L1440,256L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path>
+    </svg>
+  </header>
+  <svg
+    class="-mt-10"
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 1440 320"
+  >
+  <path fill="#f3f4f5" fill-opacity="1" d="M0,256L30,261.3C60,267,120,277,180,266.7C240,256,300,224,360,224C420,224,480,256,540,250.7C600,245,660,203,720,170.7C780,139,840,117,900,138.7C960,160,1020,224,1080,224C1140,224,1200,160,1260,154.7C1320,149,1380,203,1410,229.3L1440,256L1440,0L1410,0C1380,0,1320,0,1260,0C1200,0,1140,0,1080,0C1020,0,960,0,900,0C840,0,780,0,720,0C660,0,600,0,540,0C480,0,420,0,360,0C300,0,240,0,180,0C120,0,60,0,30,0L0,0Z"></path>
+    </svg>
     </section>
   </body>
 </html>
