@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact page</title>
     <link href="../../assets/css/output.css" rel="stylesheet" />
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css" rel="stylesheet"  />
   </head>
   <body class="customblue">
     <header>
       <!-- Ajouter img background + hover -->
-      <img src="" alt="" class="hover:">
+      <img src="" alt="" class="hover:" />
       <h1>Contactez nous</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, id fuga,
@@ -18,6 +19,19 @@
         quaerat qui eligendi sunt maxime libero quam ducimus corrupti.
       </p>
     </header>
+    <span id="menu-mobile">
+<i class="fa-solid fa-bars"></i>
+    </span>
+    <nav id="nav-mobile" class="hidden">
+      <ul class="w-full flex-col items-center bg-purple-500" >
+        <li>
+          <a href="#">Apple</a>
+        </li>
+        <li>
+          <a href="#">Insta</a>
+        </li>
+      </ul>
+    </nav>
 
     <!-- Section formulaire -->
     <section>
@@ -37,8 +51,13 @@
         <input type="text" />
         <label for="">E-mail</label>
         <input type="text" />
-        <textarea name="" id="" cols="30" rows="10" class="border-red-700"></textarea
-        >
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          class="border-red-700"
+        ></textarea>
         <button type="button">Valider</button>
       </form>
     </section>
@@ -52,9 +71,10 @@
           facilis nobis, officiis possimus fuga.
         </p>
       </div>
-      <div>
-        <!-- API GOOGLE MAP -->
-      </div>
+      <!-- API GOOGLE MAP -->
+      #map
+      <div id="map"></div>
+     
     </section>
     <footer></footer>
   </body>
