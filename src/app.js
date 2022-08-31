@@ -1,16 +1,15 @@
 import "./assets/css/styles.css";
 import "@fortawesome/fontawesome-free/js/all";
+import Menu from "./components/menu";
 
-let button = document.getElementById("dark-mode");
-// pour vérifier si la valeur button est bien liée
-     console.log(button);  
-// Vérifier dans le navigateur
+Menu()
 
-let body = document.querySelector("body");
+const menuHamburger = document.getElementById("menu-hamburger")
+const navLinks = document.getElementById("nav-links")
 
-function darkMode() {
-  body.classList.toggle("bg-dark");
-  body.classList.toggle("text-white");
-}
 
-button.addEventListener("click", darkMode);
+
+menuHamburger.addEventListener('click',()=>{
+  navLinks.classList.toggle('mobile-menu');
+  console.log("ok");
+})
