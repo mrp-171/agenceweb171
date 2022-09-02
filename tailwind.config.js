@@ -34,6 +34,7 @@ module.exports = {
       },
       backgroundImage: {
         "header-test": "url('/assets/img/bg-header.jpg')",
+        "body-image": "url('/assets/img/test.jpg')",
       },
     },
     plugins: [],
