@@ -4,16 +4,157 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Page contact</title>
     <link href="../../assets/css/output.css" rel="stylesheet" />
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDv9qImr1uKrg9nBja_b-yZ2VSSgNLOl4&callback=initMap"></script>
   </head>
-  <body class="bg-customblue" >
+  <body class="customblue overflow-y-hidden">
     <header>
-<p class="text-white mt-9">
-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, eligendi! Labore, illum velit? Inventore adipisci, voluptatem laboriosam libero expedita ipsa iste magnam. Sed natus amet eligendi hic iure corporis doloremque.
-</p>
+      <!-- Ajouter img background + hover -->
+      <img src="" alt="" class="hover:" />
+      <h1>Contactez nous</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, id fuga,
+        necessitatibus enim, repudiandae nihil ad ipsa at optio totam cum
+        quaerat qui eligendi sunt maxime libero quam ducimus corrupti.
+      </p>
     </header>
-<footer></footer>
-</footer>
+    <span id="menu-mobile">
+<i class="fa-solid fa-bars"></i>
+    </span>
+    <nav id="nav-mobile" class="hidden">
+      <ul class="w-full flex-col items-center bg-purple-500" >
+        <li>
+          <a href="#">Apple</a>
+        </li>
+        <li>
+          <a href="#">Insta</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Section formulaire -->
+    <div class="mt-10 sm:mt-0">
+      <div class="md:grid md:grid-cols-3 md:gap-6">
+        <div class="md:col-span-1">
+          <div class="px-4 sm:px-0">
+            <h3 class="text-lg font-medium leading-6 text-gray-900">Personal Information</h3>
+            <p class="mt-1 text-sm text-gray-600">Use a permanent address where you can receive mail.</p>
+          </div>
+        </div>
+        <div class="mt-5 md:col-span-2 md:mt-0">
+          <form action="#" method="POST">
+            <div class="overflow-hidden shadow sm:rounded-md">
+              <div class="bg-white px-4 py-5 sm:p-6">
+                <div class="grid grid-cols-6 gap-6">
+                  <div class="col-span-6 sm:col-span-3">
+                    <label for="first-name" class="block text-sm font-medium text-gray-700">First name</label>
+                    <input type="text" name="first-name" id="first-name" autocomplete="given-name" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
+                  </div>
+    
+                  <div class="col-span-6 sm:col-span-3">
+                    <label for="last-name" class="block text-sm font-medium text-gray-700">Last name</label>
+                    <input type="text" name="last-name" id="last-name" autocomplete="family-name" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
+                  </div>
+    
+                  <div class="col-span-6 sm:col-span-4">
+                    <label for="email-address" class="block text-sm font-medium text-gray-700">Email address</label>
+                    <input type="text" name="email-address" id="email-address" autocomplete="email" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
+                  </div>
+    
+                  <div class="col-span-6 sm:col-span-3">
+                    <label for="country" class="block text-sm font-medium text-gray-700">Country</label>
+                    <select id="country" name="country" autocomplete="country-name" class="mt-1 block w-full rounded-md border border-gray-300 bg-white py-2 px-3 shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm">
+                      <option>United States</option>
+                      <option>Canada</option>
+                      <option>Mexico</option>
+                    </select>
+                  </div>
+    
+                  <div class="col-span-6">
+                    <label for="street-address" class="block text-sm font-medium text-gray-700">Street address</label>
+                    <input type="text" name="street-address" id="street-address" autocomplete="street-address" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
+                  </div>
+    
+                  <div class="col-span-6 sm:col-span-6 lg:col-span-2">
+                    <label for="city" class="block text-sm font-medium text-gray-700">City</label>
+                    <input type="text" name="city" id="city" autocomplete="address-level2" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
+                  </div>
+    
+                  <div class="col-span-6 sm:col-span-3 lg:col-span-2">
+                    <label for="region" class="block text-sm font-medium text-gray-700">State / Province</label>
+                    <input type="text" name="region" id="region" autocomplete="address-level1" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
+                  </div>
+    
+                  <div class="col-span-6 sm:col-span-3 lg:col-span-2">
+                    <label for="postal-code" class="block text-sm font-medium text-gray-700">ZIP / Postal code</label>
+                    <input type="text" name="postal-code" id="postal-code" autocomplete="postal-code" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
+                  </div>
+                </div>
+              </div>
+              <div class="bg-gray-50 px-4 py-3 text-right sm:px-6">
+                <button type="submit" class="inline-flex justify-center rounded-md border border-transparent bg-indigo-600 py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">Save</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <section>
+      <h1>Contactez nous</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit impedit
+        ipsum consequuntur omnis libero suscipit provident alias maxime est
+        expedita. Quasi voluptatum voluptates ullam doloribus minima laboriosam
+        modi unde et?
+      </p>
+      <form action="">
+        <label for="">Nom</label>
+        <input type="text" />
+        <label for="">Prénom</label>
+        <input type="text" />
+        <label for="">Téléphone</label>
+        <input type="text" />
+        <label for="">E-mail</label>
+        <input type="text" />
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          class="border-red-700"
+        ></textarea>
+        <button type="button">Valider</button>
+      </form>
+    </section>
+    <!-- CARD PARAGRAPH + API -->
+    <section>
+      <div class="grid grid-cols-2">
+        <div class="text-left">
+          <h1>Retrouvez nous dans nos locaux</h1>
+          <p class="block">
+            ACS Onlineformapro - 30 Boulevard du Chevalier Bayard, 77100 Meaux
+            03 73 27 53 31
+          </p>
+          <li>
+            <a href="https://www.google.fr/maps/place/Access+Code+School+-+Onlineformapro/@48.9555636,2.9096305,17z/data=!3m1!4b1!4m5!3m4!1s0x47e8a16c015bdf61:0x692de59a8546b0e4!8m2!3d48.9555601!4d2.9118192" class="no-underline">Où nous trouvons nous?</a>
+          </li>
+          <span>
+            <i class="fa-solid fa-bus-simple">En transport</i>
+          </span>
+          <span>
+            <i class="fa-solid fa-car">En voiture</i>
+          </span>
+        </div>
+      </div>
+      <!-- API GOOGLE MAP -->
+     #map
+      <div id="map" ></div>
+     
+    </section>
+
+    <footer>
+
+    </footer>
   </body>
 </html>
