@@ -7,46 +7,45 @@
     <title>Document</title>
     <link href="../../assets/css/output.css" rel="stylesheet" />
   </head>
-  <body class="text-white bg-black">
-    <header class="h-16">
-      <div  class="grid grid-cols-2 bg-header-test">
-
+  <body class="text-white bg-customblue">
+    <header class="h-16 md:h-40">
+      <div class="grid grid-cols-2 bg-header-test mg:grid mg:grid-cols-2 mg:bg-header-test md:h-40">
+        <!-- LOGO -->
         <div>
-          <!-- LOGO -->
+          
         </div>
+        <div class="flex justify-end mg:flex mg:justify-end md:h-20 lg:hidden">
+          <img
+            src="../../assets/img/menu-hmg.png"
+            alt="menu hamburger"
+            id="menu-mobile"
+            class="block lg::hidden"
+            width="80px"
+          />
+        </div>
+      </div>
 
-    <div class="flex justify-end">
-      <img
-        src="../../assets/img/menu-hmg.png"
-        alt="menu hamburger"
-        id="menu-mobile"
-        class="block md:hidden"
-        width="60px"
-      />
-    </div>
-
-    <!-- navbar/menu-humburger -->
-  </div>
-      <nav
-        class="md:absolute md:flex md:justify-between md:items-center md:w-full md:box-border"
-      >
+      <!-- navbar/menu-humburger -->
+      <nav>
         <div
           id="nav-links"
-          class="m-0 justify-end hidden items-center w-screen md:bg-transparent md:flex md:items-center"
+          class="m-0 justify-end hidden items-center w-screen h-screen fixed md:fixed lg:fixed" 
         >
-        <ul
-        id="nav-menu"
-        class="flex flex-col backdrop-blur-sm bg-white/30 h-screen md:flex-col md:w-screen md:pr-8 md:flex md:absolute"
-        >
-        <div class="flex justify-end w-full">
-          <img
-            id="close"
-            annuler
-            src="../../assets/img/icons8-annuler-96.png"
-            alt="annuler"
-            width="60px"
-            height="60px"
-          />
+          <ul
+            id="nav-menu"
+            class="flex flex-col backdrop-blur-sm bg-white/30 h-screen md:flex-col md:w-screen  md:pr-8 md:flex  md:bg-white/30 md:backdrop-blur-sm"
+          >
+            <div
+              class="flex justify-end w-full md:flex md:justify-end md:w-full"
+            >
+              <img
+                id="close"
+                annuler
+                src="../../assets/img/icons8-annuler-96.png"
+                alt="annuler"
+                width="60px"
+                height="60px"
+              />
             </div>
             <div class="flex flex-col justify-center items-center">
               <li class="md:mr-5 text-red-500">
@@ -66,27 +65,27 @@
         </div>
       </nav>
     </header>
-    <section class="grid grid-rows-4">
-      <div class="h-20">
-        <h1>Nos Services</h1>
+    <section class="grid grid-rows-4 md:grid md:grid-rows-3 lg:grid lg:grid-rows-2">
+      <div class="h-20 md:m-8">
+        <h1 class="text-2xl text-center md:text-3xl md:text-center">Nos Services</h1>
       </div>
-      <div class="flex flex-col justify-center items-center">
+      <div class="flex flex-col justify-center items-center md:flex-row md:justify-center md:items-center lg:flex lg:flex-col">
         <img
+        class="md:pr-20"
           src="../../assets/img/test.jpg"
           alt=""
           height="auto"
           width="300px"
-        />
+          />
+          <img
+            src="../../assets/img/1239315.jpg"
+            alt=""
+            height="auto"
+            width="300px"
+          />
       </div>
-      <div class="flex flex-col justify-center items-center pt-4">
-        <img
-          src="../../assets/img/1239315.jpg"
-          alt=""
-          height="auto"
-          width="300px"
-        />
-      </div>
-      <div class="flex flex-col justify-center items-center pt-4">
+    
+      <div class="flex flex-col justify-center items-center pt-8">
         <img
           src="../../assets/img/1239315.jpg"
           alt=""
@@ -95,8 +94,8 @@
         />
       </div>
     </section>
-    <div class="bg-body-image pt-20">
-      <p class="z-10">
+    <div class="bg-body-image pt-20 md:mt-20 md:justify-center md:items-center">
+      <p class="z-10 text-center md:text-center">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi ab
         veniam inventore eius maiores, omnis reiciendis praesentium labore
         consequuntur nihil libero, animi ipsa voluptas nostrum earum repudiandae
@@ -104,13 +103,57 @@
       </p>
     </div>
     <!-- CAROUSEL -->
-    <h1>Nos création</h1>
+    <h1 class="text-2xl text-center md:text-3xl md:mt-20">Nos création</h1>
+
     <!-- équiep -->
-    <h1>Notre équuipe</h1>
-    <img src="" alt="">
-    <img src="" alt="">
-    <img src="" alt="">
+    <div>
+      <h1 class="text-2xl text-center md:text-3xl md:m-20">Notre équuipe</h1>
+      <img src="../../assets/img/1239315.jpg" alt="" />
+      <img src="../../assets/img/test.jpg" alt="" />
+      <img src="../../assets/img/1239315.jpg" alt="" />
+    </div>
     <!-- CAROUSEL SPONSO -->
-    <h1>Nos partenaire</h1>
+    <h1 class="text-2xl text-center">Nos partenaire</h1>
+    <div class="md:grid md:grid-rows-1">
+      <div class="md:grid md:grid-cols-3">
+        <div>
+          <ul class="w-full h-full">
+            <li class="w-10/12 h-96 justify-center items-center">
+              <img src="../../assets/img/nrj.png" alt="" />
+            </li>
+          </div>
+               <div>
+                 <li class="w-10/12 h-96 justify-center items-center">
+                   <img src="../../assets/img/ody.png" alt="" />
+                  </li>
+                </div>
+                 <div>
+                   <li class="w-10/12 h-96 justify-center items-center">
+                     <img src="../../assets/img/rez.png" alt="" />
+                    </li>
+                  </div>
+                  <div>
+                      <!-- trouvé un last sponso -->
+                  </div> 
+                  
+                  <div>
+                    <li class="w-10/12 h-96 justify-center items-center">
+                      <img src="../../assets/img/thrustmaster.png" alt="" />
+                    </li>
+                  </div>
+                  <div>
+                    <li class="w-10/12 h-96 justify-center items-center">
+                      <img src="../../assets/img/wavy.png" alt="" />
+                    </li>
+                  </div>  
+                </div>
+              </div>  
+                </ul>
+                <button id="btn-left">
+        <i class="fa-solid fa-arrow-right md:hidden"></i>
+      </button>
+      <button class="btn-right md:hidden">
+        <i class="fa-solid fa-right"></i>
+      </button>
   </body>
 </html>

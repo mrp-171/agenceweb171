@@ -7,7 +7,7 @@ const Menu = () => {
     navMenu.classList.toggle('hidden');
     
   };
-  menuMobile.addEventListener("click", showMenu);
+  menuMobile.addEventListener("click", showMenu,);
   menuClose.addEventListener("click", showMenu);
 };
 
