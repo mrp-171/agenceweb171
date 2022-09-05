@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-#map {
-  background-color: blueviolet;
+.list-none {
+  list-style-type: none;
 }
-
-
