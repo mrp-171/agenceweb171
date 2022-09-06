@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 
 const colors = require("tailwindcss/colors");
+const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
   content: ["./src/**/*.{html,js}"],
@@ -31,6 +32,9 @@ module.exports = {
         fuchsia: colors.fuchsia,
         pink: colors.pink,
         rose: colors.rose,
+      },
+      fontFamily: {
+        'dm-mono': ['dm-mono'],
       },
       backgroundImage: {
         "header-test": "url('/assets/img/bg-header.jpg')",

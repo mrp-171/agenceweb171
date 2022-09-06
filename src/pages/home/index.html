@@ -8,6 +8,24 @@
     <link href="../../assets/css/output.css" rel="stylesheet" />
   </head>
   <body class="text-white bg-customblue">
+    <div class="carousel">
+      <figure>
+        {#each imgs as img}
+        <img src="https://source.unsplash.com/EbuaKnSm8Zw/800x533" alt="" class="first-of-type:absolute first-of-type:left-0 first-of-type:right-0 first-of-type:origin-center first-of-type:rotate-45">
+        <img src="https://source.unsplash.com/kG38b7CFzTY/800x533" alt="">
+        <img src="https://source.unsplash.com/nvzvOPQW0gc/800x533" alt="">
+        <img src="https://source.unsplash.com/2lYHiNtjSwg/800x533" alt="">
+        <img src="https://source.unsplash.com/CjS3QsRuxnE/800x533" alt="">
+        <img src="https://source.unsplash.com/xxeAftHHq6E/800x533" alt="">
+        <img src="https://source.unsplash.com/bjhrzvzZeq4/800x533" alt="">
+        <img src="https://source.unsplash.com/7mUXaBBrhoA/800x533" alt="">
+        {/each}
+      </figure>
+      <nav id="nav-carousel">
+        <button class="nav prev">Prev</button>
+        <button class="nav next">Next</button>
+      </nav>
+    </div>
     <header class="h-16 md:h-40">
       <div class="grid grid-cols-2 bg-header-test mg:grid mg:grid-cols-2 mg:bg-header-test md:h-40">
         <!-- LOGO -->
@@ -85,7 +103,7 @@
           />
       </div>
     
-      <div class="flex flex-col justify-center items-center pt-8">
+      <div class="flex flex-col justify-center items-center pt-8 lg:h-96">
         <img
           src="../../assets/img/1239315.jpg"
           alt=""
@@ -93,6 +111,9 @@
           width="300px"
         />
       </div>
+
+        <img src="../../assets/img/Wave1.png" alt="" width="300px" height="auto"
+        >
     </section>
     <div class="bg-body-image pt-20 md:mt-20 md:justify-center md:items-center">
       <p class="z-10 text-center md:text-center">
@@ -103,9 +124,15 @@
       </p>
     </div>
     <!-- CAROUSEL -->
-    <h1 class="text-2xl text-center md:text-3xl md:mt-20">Nos création</h1>
+    <div>
+      <h1 class="text-2xl text-center md:text-3xl md:mt-20">Nos création</h1>
+    </div>
 
     <!-- équiep -->
+<div>
+  <img src="../../assets/img/wave2.png" alt="">
+</div>
+
     <div>
       <h1 class="text-2xl text-center md:text-3xl md:m-20">Notre équuipe</h1>
       <img src="../../assets/img/1239315.jpg" alt="" />
