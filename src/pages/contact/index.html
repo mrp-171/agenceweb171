@@ -12,76 +12,67 @@
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDv9qImr1uKrg9nBja_b-yZ2VSSgNLOl4&callback=initMap"
     ></script> -->
   </head>
-  <body class="bg-customblue text-white overflow-x-hidden">
+  <body class="bg-customblue text-white overflow-x-hidden font-dm-mono">
     <!-- Ajouter img background + hover -->
     <section class="container">
       <div class="grid grid-cols-1 grid-rows-2">
         <div class="flex justify-center items-center text-4xl">
-          <h1 class="text-green-400 font-dm-mono">Contactez nous</h1>
+          <h1 class="text-cyan-400">Contactez nous</h1>
         </div>
         <div>
-          <p class="text-lg text-center px-4">
+          <p class="text-center px-4 py-4">
             N'hésitez pas à nous contacter en remplissant le formulaire ci
-            dessous. Spécifiez nous votre projet, vos idées et/ou envie. Notre
-            équipe se chargera du reste!
+            dessous. Spécifiez nous votre projet, vos idées et/ou envies. <br />
+            Notre équipe se chargera du reste!
           </p>
         </div>
-          <div>
-            <img src="../../assets/img/formulaire.png" alt="form" height="auto" class=""/>
-          </div>
+        <div class="flex justify-center pt-6">
+          <img
+            src="../../assets/img/formulaire.png"
+            alt="form"
+            height="auto"
+            width="180px"
+          />
+        </div>
       </div>
-      <span id="menu-mobile">
-        <i class="fa-solid fa-bars"></i>
-      </span>
-      <nav id="nav-mobile" class="hidden">
-        <ul class="w-full flex-col items-center bg-purple-500">
-          <li>
-            <a href="#">Apple</a>
-          </li>
-          <li>
-            <a href="#">Insta</a>
-          </li>
-        </ul>
-      </nav>
     </section>
     <!-- Section formulaire -->
-    <div class="mt-10 sm:mt-0">
+    <section class="mt-10 sm:mt-0">
       <div class="md:grid md:grid-cols-3 md:gap-6">
         <div class="md:col-span-1">
           <div class="px-4 sm:px-0">
-            <h3 class="text-lg font-medium leading-6 text-gray-900">
-              Personal Information
+            <h3 class="text-cyan-400 text-lg font-medium leading-6">
+              Informations personelles
             </h3>
-            <p class="mt-1 text-sm text-gray-600">
-              Use a permanent address where you can receive mail.
+            <p class="mt-5 text-sm">
+              Utilisez une adresse e-mail permanente, afin que l'on puisse vous recontactez.
             </p>
           </div>
         </div>
         <div class="mt-5 md:col-span-2 md:mt-0">
           <form action="#" method="POST">
             <div class="overflow-hidden shadow sm:rounded-md">
-              <div class="bg-purple-200 px-4 py-5 sm:p-6">
+              <div class="bg-purple-900 px-4 py-5 sm:p-6">
                 <div class="grid grid-cols-6 gap-6">
                   <div class="col-span-6 sm:col-span-3">
                     <label
                       for="first-name"
-                      class="block text-sm font-medium text-gray-700"
-                      >First name</label
+                      class="block text-sm font-medium  text-white "
+                      >Prénom</label
                     >
                     <input
                       type="text"
                       name="first-name"
                       id="first-name"
                       autocomplete="given-name"
-                      class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                      class="mt-1 block w-full rounded-md border-purple-700 shadow-sm focus:border-purple-700 focus:ring-purple-700 sm:text-sm"
                     />
                   </div>
-
                   <div class="col-span-6 sm:col-span-3">
                     <label
                       for="last-name"
-                      class="block text-sm font-medium text-gray-700"
-                      >Last name</label
+                      class="block text-sm font-medium text-white "
+                      >Nom de famille</label
                     >
                     <input
                       type="text"
@@ -91,11 +82,10 @@
                       class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                     />
                   </div>
-
                   <div class="col-span-6 sm:col-span-4">
                     <label
                       for="email-address"
-                      class="block text-sm font-medium text-gray-700"
+                      class="block text-sm font-medium text-white "
                       >Email address</label
                     >
                     <input
@@ -110,7 +100,7 @@
                   <div class="col-span-6 sm:col-span-3">
                     <label
                       for="country"
-                      class="block text-sm font-medium text-gray-700"
+                      class="block text-sm font-medium text-white "
                       >Country</label
                     >
                     <select
@@ -128,7 +118,7 @@
                   <div class="col-span-6">
                     <label
                       for="street-address"
-                      class="block text-sm font-medium text-gray-700"
+                      class="block text-sm font-medium text-white "
                       >Street address</label
                     >
                     <input
@@ -198,7 +188,8 @@
           </form>
         </div>
       </div>
-    </div>
+    </section>
+
     <section>
       <h1>Contactez nous</h1>
       <p>
