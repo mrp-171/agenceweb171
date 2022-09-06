@@ -1,5 +1,5 @@
 import "./assets/css/styles.css";
-// import "@fontawesome/fontawesome-free/js/all";
+import "@fortawesome/fontawesome-free/js/all";
 
 // let button = document.getElementById("dark-mode");
 // pour vérifier si la valeur button est bien liée
