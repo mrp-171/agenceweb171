@@ -37,14 +37,14 @@
       </div>
     </section>
     <!-- Section formulaire -->
-    <section class="mt-10 sm:mt-0">
+    <section class="mt-10 sm:mt-0 bg-purple-200">
       <div class="md:grid md:grid-cols-3 md:gap-6">
         <div class="md:col-span-1">
           <div class="px-4 sm:px-0">
-            <h3 class="text-cyan-400 text-lg font-medium leading-6">
+            <h3 class="text-violet-700 text-lg font-medium leading-6">
               Informations personelles
             </h3>
-            <p class="mt-5 text-sm">
+            <p class="mt-5 text-sm text-gray-600 ">
               Utilisez une adresse e-mail permanente, afin que l'on puisse vous
               recontactez.
             </p>
@@ -53,12 +53,12 @@
         <div class="mt-5 md:col-span-2 md:mt-0">
           <form action="#" method="POST">
             <div class="overflow-hidden shadow sm:rounded-md">
-              <div class="bg-purple-900 px-4 py-5 sm:p-6">
+              <div class="bg-slate-200 px-4 py-5 sm:p-6">
                 <div class="grid grid-cols-6 gap-6">
                   <div class="col-span-6 sm:col-span-3">
                     <label
                       for="last-name"
-                      class="block text-sm font-medium text-white"
+                      class="block text-sm font-medium text-gray-600"
                       >Nom</label
                     >
                     <input
@@ -72,7 +72,7 @@
                   <div class="col-span-6 sm:col-span-3">
                     <label
                       for="first-name"
-                      class="block text-sm font-medium text-white"
+                      class="block text-sm font-medium text-gray-600"
                       >Prénom</label
                     >
                     <input
@@ -86,8 +86,8 @@
                   <div class="col-span-6 sm:col-span-4">
                     <label
                       for="email-address"
-                      class="block text-sm font-medium text-white"
-                      >Adresse email</label
+                      class="block text-sm font-medium text-gray-600"
+                      >Adresse e-mail</label
                     >
                     <input
                       type="text"
@@ -97,26 +97,20 @@
                       class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                     />
                   </div>
-
-                  <div class="col-span-6 sm:col-span-3">
-                    <label
-                      for="country"
-                      class="block text-sm font-medium text-white"
-                    ></label>
-                  </div>
                   <div class="col-span-6 sm:col-span-6 lg:col-span-2">
                     <label
-                      for="city"
-                      class="block text-sm font-medium text-white"
-                      >Ville</label
+                      for="text area"
+                      class="block text-sm font-medium  text-gray-600"
+                      >Decrivez-nous votre projet</label
                     >
-                    <input
+                    <textarea
                       type="text"
-                      name="city"
-                      id="city"
-                      autocomplete="address-level2"
-                      class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-                    />
+                      name="description"
+                      id="textarea"
+                      rows="5"
+                      cols="33"
+                      class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
+                  </textarea>
                   </div>
                 </div>
               </div>
@@ -136,45 +130,49 @@
     <!-- CARD PARAGRAPH + API -->
     <section class="grid grid-cols-1">
       <div class="flex justify-center pt-6">
-        <h1 class="text-cyan-400 text-2xl text-center">Retrouvez nous dans nos locaux</h1>
+        <h1 class="text-cyan-400 text-2xl text-center">
+          Retrouvez nous dans nos locaux
+        </h1>
       </div>
       <div class="py-10">
         <p class="text-white flex justify-center text-center">
-          ACS Onlineformapro - 
-          <br> 30 Boulevard du Chevalier Bayard,
-          <br> 77100 Meaux 
-          <br> 03 73 27 53 31
+          ACS Onlineformapro -
+          <br />
+          30 Boulevard du Chevalier Bayard, <br />
+          77100 Meaux <br />
+          03 73 27 53 31
         </p>
       </div>
-      <div class="flex justify-center text-center">
-        <li class="list-none">
-          <a
-          href="https://www.google.fr/maps/place/Access+Code+School+-+Onlineformapro/@48.9555636,2.9096305,17z/data=!3m1!4b1!4m5!3m4!1s0x47e8a16c015bdf61:0x692de59a8546b0e4!8m2!3d48.9555601!4d2.9118192"
-          class="no-underline hover:bg-indigo-500 text-cyan-400 rounded-md"
-          >Où nous trouvons nous?</a
-          > 
-          <!-- ajouter icone location -->
-        </li>
-        <span>
-          <i class="fa-solid fa-map-pin"></i>
-        </span>
-        <!-- icones -->
-        <span>
-          <i class="fa-solid fa-bus-simple">En transport</i>
-        </span>
-        <span>
-          <i class="fa-solid fa-car">En voiture</i>
-        </span>
+      <div class="grid grid-cols-1">
+        <div class="flex justify-center text-center mb-6">
+          <li class="list-none">
+            <a
+            href="https://www.google.fr/maps/place/Access+Code+School+-+Onlineformapro/@48.9555636,2.9096305,17z/data=!3m1!4b1!4m5!3m4!1s0x47e8a16c015bdf61:0x692de59a8546b0e4!8m2!3d48.9555601!4d2.9118192"
+            class="no-underline text-cyan-400"
+            >Où nous trouvons nous?</a
+            >
+            <i class="fa-solid fa-map-pin"></i>
+          </li>
+        </div>
+          <!-- <div class="flex justify-center">
+            <span>
+              <p>En transport</p>
+              <i class="fa-solid fa-bus-simple"></i>
+            </span>
+            <span>
+              <p>En voiture</p>
+              <i class="fa-solid fa-car">En voiture</i>
+            </span>
+          </div> -->
       </div>
       <!-- API GOOGLE MAP -->
       <!-- #map
       <div id="map"></div> -->
     </section>
-
     <footer class="mt-auto w-full bg-blue-800">
       <section class="container">
-        <div class="grid grid-cols-1 gap-y-2">
-          <div class="flex justify-center py-5 z-10">
+        <div class="grid grid-cols-2">
+          <div class="flex justify-center py-5">
             <ul>
               <li>
                 <a href="#">Nos services</a>
@@ -187,10 +185,6 @@
               </li>
             </ul>
           </div>
-        </div>
-      </section>
-      <section class="container">
-        <div class="grid grid-cols-1">
           <div class="flex justify-center">
             <img
               src="../../assets/img/logoMetadev.png"
@@ -201,21 +195,26 @@
           </div>
         </div>
       </section>
-      <section class="container py-4">
+      <section class="container py-4 -mb-8">
         <div class="flex flex-row justify-center mb-6">
-          <h1>Rejoignez-nous 🚀</h1>
+          <h1 class="text-xl">Rejoignez-nous 🚀</h1>
         </div>
         <div class="flex justify-around py-8">
-            <i class="fa-brands fa-facebook">Facebook</i>
           <span>
-            <i class="fa-brands fa-linkedin-in">LinkedIn</i>
+            <i class="fa-brands fa-facebook fa-lg fa-border ml-5"></i>
+            <p class="text-sm mt-2">Facebook</p>
           </span>
           <span>
-            <i class="fa-brands fa-instagram">Instagram</i>
+            <i class="fa-brands fa-linkedin-in fa-lg fa-border ml-5"></i>
+            <p class="text-sm mt-2">LinkedIn</p>
+          </span>
+          <span>
+            <i class="fa-brands fa-instagram fa-lg fa-border ml-8"></i>
+            <p class="text-sm mt-2">Instagram</p>
           </span>
         </div>
       </section>
-      <hr class="border-double border-4 border-purple-700" />
+      <hr class="border-double border-2 border-cyan-400"/>
       <section class="container">
         <div class="grid grid-cols-2 grid-rows-2 gap-y-6 py-6">
           <div class="flex justify-center pt-4">
