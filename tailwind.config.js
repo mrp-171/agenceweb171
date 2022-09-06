@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 
 const colors = require("tailwindcss/colors")
+const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
   content: ["./src/**/*.{html,js}"],
@@ -33,10 +34,14 @@ module.exports = {
       pink: colors.pink,
       rose: colors.rose,
     },
-    extend: {},
+    fontFamily: {
+      'dm-mono': ['dm-mono'],
+    },
+    extend: {
+    },
     transparent: 'transparent',
       current: 'currentColor',
       'white': '#ffffff',
   },
   plugins: [],
-}
+} 

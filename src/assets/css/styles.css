@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-.list-none {
-  list-style-type: none;
+
+@font-face {
+  font-family: "dm-mono";
+  src: url("../fonts/DM_Mono/DMMono-Medium.ttf") format("truetype");
 }
+
