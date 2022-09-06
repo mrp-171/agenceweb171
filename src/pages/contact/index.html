@@ -45,7 +45,8 @@
               Informations personelles
             </h3>
             <p class="mt-5 text-sm">
-              Utilisez une adresse e-mail permanente, afin que l'on puisse vous recontactez.
+              Utilisez une adresse e-mail permanente, afin que l'on puisse vous
+              recontactez.
             </p>
           </div>
         </div>
@@ -56,8 +57,22 @@
                 <div class="grid grid-cols-6 gap-6">
                   <div class="col-span-6 sm:col-span-3">
                     <label
+                      for="last-name"
+                      class="block text-sm font-medium text-white"
+                      >Nom</label
+                    >
+                    <input
+                      type="text"
+                      name="last-name"
+                      id="last-name"
+                      autocomplete="family-name"
+                      class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                    />
+                  </div>
+                  <div class="col-span-6 sm:col-span-3">
+                    <label
                       for="first-name"
-                      class="block text-sm font-medium  text-white "
+                      class="block text-sm font-medium text-white"
                       >Prénom</label
                     >
                     <input
@@ -68,25 +83,11 @@
                       class="mt-1 block w-full rounded-md border-purple-700 shadow-sm focus:border-purple-700 focus:ring-purple-700 sm:text-sm"
                     />
                   </div>
-                  <div class="col-span-6 sm:col-span-3">
-                    <label
-                      for="last-name"
-                      class="block text-sm font-medium text-white "
-                      >Nom de famille</label
-                    >
-                    <input
-                      type="text"
-                      name="last-name"
-                      id="last-name"
-                      autocomplete="family-name"
-                      class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-                    />
-                  </div>
                   <div class="col-span-6 sm:col-span-4">
                     <label
                       for="email-address"
-                      class="block text-sm font-medium text-white "
-                      >Email address</label
+                      class="block text-sm font-medium text-white"
+                      >Adresse email</label
                     >
                     <input
                       type="text"
@@ -100,77 +101,20 @@
                   <div class="col-span-6 sm:col-span-3">
                     <label
                       for="country"
-                      class="block text-sm font-medium text-white "
-                      >Country</label
-                    >
-                    <select
-                      id="country"
-                      name="country"
-                      autocomplete="country-name"
-                      class="mt-1 block w-full rounded-md border border-gray-300 bg-white py-2 px-3 shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
-                    >
-                      <option>United States</option>
-                      <option>Canada</option>
-                      <option>Mexico</option>
-                    </select>
+                      class="block text-sm font-medium text-white"
+                    ></label>
                   </div>
-
-                  <div class="col-span-6">
-                    <label
-                      for="street-address"
-                      class="block text-sm font-medium text-white "
-                      >Street address</label
-                    >
-                    <input
-                      type="text"
-                      name="street-address"
-                      id="street-address"
-                      autocomplete="street-address"
-                      class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-                    />
-                  </div>
-
                   <div class="col-span-6 sm:col-span-6 lg:col-span-2">
                     <label
                       for="city"
-                      class="block text-sm font-medium text-gray-700"
-                      >City</label
+                      class="block text-sm font-medium text-white"
+                      >Ville</label
                     >
                     <input
                       type="text"
                       name="city"
                       id="city"
                       autocomplete="address-level2"
-                      class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-                    />
-                  </div>
-
-                  <div class="col-span-6 sm:col-span-3 lg:col-span-2">
-                    <label
-                      for="region"
-                      class="block text-sm font-medium text-gray-700"
-                      >State / Province</label
-                    >
-                    <input
-                      type="text"
-                      name="region"
-                      id="region"
-                      autocomplete="address-level1"
-                      class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-                    />
-                  </div>
-
-                  <div class="col-span-6 sm:col-span-3 lg:col-span-2">
-                    <label
-                      for="postal-code"
-                      class="block text-sm font-medium text-gray-700"
-                      >ZIP / Postal code</label
-                    >
-                    <input
-                      type="text"
-                      name="postal-code"
-                      id="postal-code"
-                      autocomplete="postal-code"
                       class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                     />
                   </div>
@@ -181,7 +125,7 @@
                   type="submit"
                   class="inline-flex justify-center rounded-md border border-transparent bg-indigo-600 py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
                 >
-                  Save
+                  Envoyer
                 </button>
               </div>
             </div>
@@ -189,57 +133,38 @@
         </div>
       </div>
     </section>
-
-    <section>
-      <h1>Contactez nous</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit impedit
-        ipsum consequuntur omnis libero suscipit provident alias maxime est
-        expedita. Quasi voluptatum voluptates ullam doloribus minima laboriosam
-        modi unde et?
-      </p>
-      <form action="">
-        <label for="">Nom</label>
-        <input type="text" />
-        <label for="">Prénom</label>
-        <input type="text" />
-        <label for="">Téléphone</label>
-        <input type="text" />
-        <label for="">E-mail</label>
-        <input type="text" />
-        <textarea
-          name=""
-          id=""
-          cols="30"
-          rows="10"
-          class="border-red-700"
-        ></textarea>
-        <button type="button">Valider</button>
-      </form>
-    </section>
     <!-- CARD PARAGRAPH + API -->
-    <section class="grid grid-cols-2">
-      <div>
-        <div class="">
-          <h1>Retrouvez nous dans nos locaux</h1>
-          <p class="">
-            ACS Onlineformapro - 30 Boulevard du Chevalier Bayard, 77100 Meaux
-            03 73 27 53 31
-          </p>
-          <li>
-            <a
-              href="https://www.google.fr/maps/place/Access+Code+School+-+Onlineformapro/@48.9555636,2.9096305,17z/data=!3m1!4b1!4m5!3m4!1s0x47e8a16c015bdf61:0x692de59a8546b0e4!8m2!3d48.9555601!4d2.9118192"
-              class="no-underline"
-              >Où nous trouvons nous?</a
-            >
-          </li>
-          <span>
-            <i class="fa-solid fa-bus-simple">En transport</i>
-          </span>
-          <span>
-            <i class="fa-solid fa-car">En voiture</i>
-          </span>
-        </div>
+    <section class="grid grid-cols-1">
+      <div class="flex justify-center pt-6">
+        <h1 class="text-cyan-400 text-2xl text-center">Retrouvez nous dans nos locaux</h1>
+      </div>
+      <div class="py-10">
+        <p class="text-white flex justify-center text-center">
+          ACS Onlineformapro - 
+          <br> 30 Boulevard du Chevalier Bayard,
+          <br> 77100 Meaux 
+          <br> 03 73 27 53 31
+        </p>
+      </div>
+      <div class="flex justify-center text-center">
+        <li class="list-none">
+          <a
+          href="https://www.google.fr/maps/place/Access+Code+School+-+Onlineformapro/@48.9555636,2.9096305,17z/data=!3m1!4b1!4m5!3m4!1s0x47e8a16c015bdf61:0x692de59a8546b0e4!8m2!3d48.9555601!4d2.9118192"
+          class="no-underline hover:bg-indigo-500 text-cyan-400 rounded-md"
+          >Où nous trouvons nous?</a
+          > 
+          <!-- ajouter icone location -->
+        </li>
+        <span>
+          <i class="fa-solid fa-map-pin"></i>
+        </span>
+        <!-- icones -->
+        <span>
+          <i class="fa-solid fa-bus-simple">En transport</i>
+        </span>
+        <span>
+          <i class="fa-solid fa-car">En voiture</i>
+        </span>
       </div>
       <!-- API GOOGLE MAP -->
       <!-- #map
@@ -278,7 +203,7 @@
       </section>
       <section class="container py-4">
         <div class="flex flex-row justify-center mb-6">
-          <h1>Suivez-nous 🚀</h1>
+          <h1>Rejoignez-nous 🚀</h1>
         </div>
         <div class="flex justify-around py-8">
           <span>
