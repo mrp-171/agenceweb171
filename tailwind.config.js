@@ -37,6 +37,7 @@ module.exports = {
         'dm-mono': ['dm-mono'],
       },
       backgroundImage: {
+        "header-planet":"url('/assets/img/planete.jpg')",
         "header-test": "url('/assets/img/bg-header.jpg')",
         "body-image": "url('/assets/img/test.jpg')",
       },

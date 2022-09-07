@@ -8,29 +8,23 @@
     <link href="../../assets/css/output.css" rel="stylesheet" />
   </head>
   <body class="text-white bg-customblue">
-    <div class="carousel">
-      <figure>
-        {#each imgs as img}
-        <img src="https://source.unsplash.com/EbuaKnSm8Zw/800x533" alt="" class="first-of-type:absolute first-of-type:left-0 first-of-type:right-0 first-of-type:origin-center first-of-type:rotate-45">
-        <img src="https://source.unsplash.com/kG38b7CFzTY/800x533" alt="">
-        <img src="https://source.unsplash.com/nvzvOPQW0gc/800x533" alt="">
-        <img src="https://source.unsplash.com/2lYHiNtjSwg/800x533" alt="">
-        <img src="https://source.unsplash.com/CjS3QsRuxnE/800x533" alt="">
-        <img src="https://source.unsplash.com/xxeAftHHq6E/800x533" alt="">
-        <img src="https://source.unsplash.com/bjhrzvzZeq4/800x533" alt="">
-        <img src="https://source.unsplash.com/7mUXaBBrhoA/800x533" alt="">
-        {/each}
-      </figure>
-      <nav id="nav-carousel">
-        <button class="nav prev">Prev</button>
-        <button class="nav next">Next</button>
-      </nav>
-    </div>
-    <header class="h-16 md:h-40">
-      <div class="grid grid-cols-2 bg-header-test mg:grid mg:grid-cols-2 mg:bg-header-test md:h-40">
+    <header class="h-80 bg-header-planet bg-center bg-cover w-full md:h-40">
+      <section>
+        <div class="w-screen">
+          <div class=""></div>
+        </div>
+      </section>
+      <div
+        class="grid grid-cols-2 mg:grid mg:grid-cols-2 mg:bg-header-test md:h-40"
+      >
         <!-- LOGO -->
-        <div>
-          
+        <div class="p-2">
+          <img
+            src="../../assets/img/logog.png"
+            alt=""
+            height="auto"
+            width="80px"
+          />
         </div>
         <div class="flex justify-end mg:flex mg:justify-end md:h-20 lg:hidden">
           <img
@@ -47,11 +41,11 @@
       <nav>
         <div
           id="nav-links"
-          class="m-0 justify-end hidden items-center w-screen h-screen fixed md:fixed lg:fixed" 
+          class="m-0 justify-end hidden items-center w-screen h-screen fixed md:fixed lg:fixed"
         >
           <ul
             id="nav-menu"
-            class="flex flex-col backdrop-blur-sm bg-white/30 h-screen md:flex-col md:w-screen  md:pr-8 md:flex  md:bg-white/30 md:backdrop-blur-sm"
+            class="flex flex-col backdrop-blur-sm bg-white/30 h-screen md:flex-col md:w-screen md:pr-8 md:flex md:bg-white/30 md:backdrop-blur-sm"
           >
             <div
               class="flex justify-end w-full md:flex md:justify-end md:w-full"
@@ -83,104 +77,64 @@
         </div>
       </nav>
     </header>
-    <section class="grid grid-rows-4 md:grid md:grid-rows-3 lg:grid lg:grid-rows-2">
-      <div class="h-20 md:m-8">
-        <h1 class="text-2xl text-center md:text-3xl md:text-center">Nos Services</h1>
-      </div>
-      <div class="flex flex-col justify-center items-center md:flex-row md:justify-center md:items-center lg:flex lg:flex-col">
-        <img
-        class="md:pr-20"
-          src="../../assets/img/test.jpg"
-          alt=""
-          height="auto"
-          width="300px"
-          />
-          <img
-            src="../../assets/img/1239315.jpg"
-            alt=""
-            height="auto"
-            width="300px"
-          />
-      </div>
-    
-      <div class="flex flex-col justify-center items-center pt-8 lg:h-96">
-        <img
-          src="../../assets/img/1239315.jpg"
-          alt=""
-          height="auto"
-          width="300px"
-        />
-      </div>
 
-        <img src="../../assets/img/Wave1.png" alt="" width="300px" height="auto"
-        >
-    </section>
-    <div class="bg-body-image pt-20 md:mt-20 md:justify-center md:items-center">
-      <p class="z-10 text-center md:text-center">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi ab
-        veniam inventore eius maiores, omnis reiciendis praesentium labore
-        consequuntur nihil libero, animi ipsa voluptas nostrum earum repudiandae
-        hic mollitia esse?
-      </p>
+    <div
+      class="grid grid-rows-2 pt-20 md:mt-20 md:justify-center md:items-center"
+    >
+      <div>
+        <img src="../../assets/img/astro-question.png" alt="" />
+      </div>
+      <div>
+        <p class="z-10 text-center md:text-center">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi ab
+          veniam inventore eius maiores, omnis reiciendis praesentium labore
+          consequuntur nihil libero, animi ipsa voluptas nostrum earum
+          repudiandae hic mollitia esse?
+        </p>
+      </div>
     </div>
     <!-- CAROUSEL -->
-    <div>
-      <h1 class="text-2xl text-center md:text-3xl md:mt-20">Nos création</h1>
-    </div>
+    <div></div>
 
     <!-- équiep -->
-<div>
-  <img src="../../assets/img/wave2.png" alt="">
-</div>
+    <div class="mb-28">
+      <h1 class="text-2xl text-center z-20 -mb-8 md:text-3xl md:mt-20">
+        Nos création
+      </h1>
+      <img src="../../assets/img/wave2.png" alt="" class="z-0" />
+      <h1 class="text-3xl text-center -mt-36 z-1 md:text-3xl md:m-24">
+        Notre équipe
+      </h1>
+    </div>
+
+    <section class="mt-8">
+      <div class="mb-10">
+        <img src="../../assets/img/1239315.jpg" alt="lead-dev" />
+      </div>
+      <div class="mb-10">
+        <img src="../../assets/img/test.jpg" alt="dev-1" />
+      </div>
+      <div class="mb-10">
+        <img src="../../assets/img/1239315.jpg" alt="dev-2" />
+      </div>
+    </section>
 
     <div>
-      <h1 class="text-2xl text-center md:text-3xl md:m-20">Notre équuipe</h1>
-      <img src="../../assets/img/1239315.jpg" alt="" />
-      <img src="../../assets/img/test.jpg" alt="" />
-      <img src="../../assets/img/1239315.jpg" alt="" />
+      <img src="../../assets/img/wave2.png" alt="" class="z-0" />
+      <h1 class="text-2xl text-center -mt-36">Nos partenaire</h1>
     </div>
+
     <!-- CAROUSEL SPONSO -->
-    <h1 class="text-2xl text-center">Nos partenaire</h1>
-    <div class="md:grid md:grid-rows-1">
-      <div class="md:grid md:grid-cols-3">
-        <div>
-          <ul class="w-full h-full">
-            <li class="w-10/12 h-96 justify-center items-center">
-              <img src="../../assets/img/nrj.png" alt="" />
-            </li>
-          </div>
-               <div>
-                 <li class="w-10/12 h-96 justify-center items-center">
-                   <img src="../../assets/img/ody.png" alt="" />
-                  </li>
-                </div>
-                 <div>
-                   <li class="w-10/12 h-96 justify-center items-center">
-                     <img src="../../assets/img/rez.png" alt="" />
-                    </li>
-                  </div>
-                  <div>
-                      <!-- trouvé un last sponso -->
-                  </div> 
-                  
-                  <div>
-                    <li class="w-10/12 h-96 justify-center items-center">
-                      <img src="../../assets/img/thrustmaster.png" alt="" />
-                    </li>
-                  </div>
-                  <div>
-                    <li class="w-10/12 h-96 justify-center items-center">
-                      <img src="../../assets/img/wavy.png" alt="" />
-                    </li>
-                  </div>  
-                </div>
-              </div>  
-                </ul>
-                <button id="btn-left">
-        <i class="fa-solid fa-arrow-right md:hidden"></i>
-      </button>
-      <button class="btn-right md:hidden">
-        <i class="fa-solid fa-right"></i>
-      </button>
+    <section
+      class="flex overflow-auto snap-mandatory p-4 gap-3 scroll-p-4 mt-48"
+    >
+      <div class="flex snap-start snap-always">
+        <img src="../../assets/img/nrj.png" alt="" height="auto" width="50%" />
+        <img src="../../assets/img/odyssey.png" alt="" />
+        <img src="../../assets/img/rez.png" alt="" />
+        <img src="../../assets/img/thrustmaster.png" alt="" />
+        <img src="../../assets/img/wavy.png" alt="" />
+      </div>
+    </section>
   </body>
 </html>
