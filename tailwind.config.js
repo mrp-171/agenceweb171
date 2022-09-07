@@ -42,6 +42,12 @@ module.exports = {
     transparent: 'transparent',
       current: 'currentColor',
       'white': '#ffffff',
+    aspectRatio: {
+        '960/300': '960 / 300',
+    }
+    // backgroundImage: {
+    //   'footer-waves': "url('./src/assets/img/footer-waves.svg)"
+    // }
   },
   plugins: [],
 } 

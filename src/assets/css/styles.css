@@ -7,3 +7,6 @@
   src: url("../fonts/DM_Mono/DMMono-Medium.ttf") format("truetype");
 }
 
+.waves {
+  background-image: url(../img/waves.png);
+}
