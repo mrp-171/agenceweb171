@@ -20,22 +20,21 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: path.resolve(__dirname, "./src/pages/home/index.html"),
+      template: path.resolve(dirname, "./src/pages/home/index.html"),
       filename: "index.html",
+    }),
+    new HtmlWebpackPlugin({
+      template: path.resolve(dirname, "./src/pages/services/index.html"),
+      filename: "services.html",
     }),
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, "./src/pages/contact/index.html"),
       filename: "contact.html",
     }),
-    new HtmlWebpackPlugin({
-      template: path.resolve(__dirname, "./src/pages/services/index.html"),
-      filename: "services.html",
-    }),
     new CopyPlugin({
       patterns: [
-        { from: "./src/assets/fonts/", to: "assets/fonts" },
-        { from: "./src/assets/img/", to: "assets/img" },
-        { from: "./src/assets/media/", to: "assets/media" },
+        { from: "./src/assets/fonts", to: "./assets/fonts" },
+        { from: "./src/assets/img", to: "./assets/img" },
       ],
     }),
   ],
