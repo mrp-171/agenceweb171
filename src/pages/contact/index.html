@@ -8,6 +8,102 @@
     <link href="../../assets/css/output.css" rel="stylesheet"/>
   </head>
   <body class="bg-customblue text-white overflow-x-hidden font-dm-mono">
+    <header
+      class="text-white h-80 bg-header-planet bg-center bg-cover w-full lg:bg-cover lg:h-screen lg:bg-center"
+    >
+      <section>
+        <div class="w-screen"></div>
+      </section>
+      <div id="header">
+        <div
+          class="grid grid-cols-2 md:grid md:grid-cols-3 md:h-40 lg:grid lg:grid-cols-3"
+        >
+          <div
+            class="p-2 md:flex md:justify-center md:items-start md:col-start-2 lg:col-start-1 lg:w-52"
+          >
+            <a href="#">
+              <img
+                class="md:w-32"
+                src="../../assets/img/logo.png"
+                alt=""
+                height="auto"
+                width="80px"
+              />
+            </a>
+          </div>
+          <div class="hidden lg:flex lg:col-span-2">
+            <nav class="lg:flex">
+              <ul
+                class="lg:flex lg:flex-row lg:pt-8 lg:justify-center lg:items-center"
+              >
+                <li class="lg:text-4xl">
+                  <a href="#">Acceuil</a>
+                </li>
+                <li class="lg:text-4xl lg:pl-12">
+                  <a href="#">Contact</a>
+                </li>
+                <li class="lg:text-4xl lg:pl-12">
+                  <a href="#">Service</a>
+                </li>
+                <li class="lg:text-4xl lg:pl-12">
+                  <a href="#">Boutique</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div
+            class="flex justify-end mg:flex mg:justify-end md:h-20 lg:hidden"
+          >
+            <img
+              src="../../assets/img/menu-hmg.png"
+              alt="menu hamburger"
+              id="menu-mobile"
+              class="block lg::hidden"
+              width="80px"
+            />
+          </div>
+        </div>
+      </div>
+      <nav>
+        <div
+          id="nav-links"
+          class="m-0 justify-end hidden items-center w-screen h-screen xl:hidden"
+        >
+          <ul
+            id="nav-menu"
+            class="grid grid-rows-3 backdrop-blur-sm bg-white/30 h-screen md:flex-col md:w-screen md:pr-8 md:flex md:bg-white/30 md:backdrop-blur-sm"
+          >
+          <div
+            class="flex justify-end items-start w-full md:flex md:justify-end md:w-full"
+          >
+            <img
+              id="close"
+              class="block"
+              annuler
+              src="../../assets/img/icons8-annuler-96.png"
+              alt="annuler"
+              width="60px"
+              height="60px"
+            />
+          </div>
+            <div class="flex flex-col justify-center items-center">
+              <li class="text-2xl text-cyan-400 md:mr-5 lg:text-4xl">
+                <a href="#">Acceuil</a>
+              </li>
+              <li class="text-2xl mt-9 md:mr-5 lg:text-4xl">
+                <a href="#">Contact</a>
+              </li>
+              <li class="text-2xl mt-9 md:mr-5 lg:text-4xl">
+                <a href="#">Service</a>
+              </li>
+              <li class="text-2xl mt-9 md:mr-5 lg:text-4xl">
+                <a href="#">Boutique</a>
+              </li>
+            </div>
+          </ul>
+        </div>
+      </nav>
+    </header>
     <section class="container">
       <div class="grid grid-cols-1 grid-rows-2">
         <div class="flex flex-col justify-center items-center mt-8 md:mt-12 lg:w-screen">
