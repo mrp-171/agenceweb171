@@ -1,3 +1,4 @@
+
 const body = document.querySelector("body");
 const menuMobile = document.getElementById("menu-mobile");
 const navMenu = document.getElementById("nav-links");
