@@ -2,7 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-
+@font-face {
+  font-family: "dm-mono";
+  src: url("../fonts/DM_Mono/DMMono-Medium.ttf") format("truetype");
+}
 
 
 
