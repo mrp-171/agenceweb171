@@ -34,6 +34,10 @@ module.exports = {
       pink: colors.pink,
       rose: colors.rose,
     },
+    backgroundImage: {
+      "header-planet":"url('/assets/img/planete.jpg')",
+      "wave":"url('/assets/img/wave.png')",
+    },
     fontFamily: {
       'dm-mono': ['dm-mono'],
     },

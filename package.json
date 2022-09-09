@@ -8,10 +8,9 @@
     "start": "run-p start:**",
     "start:serve": "webpack serve --open --config webpack.dev.js",
     "start:tailwind": "tailwindcss -i ./src/assets/css/styles.css -o ./dist/assets/css/output.css --watch",
-    "build": "run-s build:",
+    "build": "run-s build:**",
     "build:webpack": "webpack --config webpack.prod.js",
     "build:tailwind": "tailwindcss -i ./src/assets/css/styles.css -o ./dist/assets/css/output.css"
-
   },
   "keywords": [],
   "author": "mrp-171",
