@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Page contact</title>
     <link href="../../assets/css/output.css" rel="stylesheet" />
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDv9qImr1uKrg9nBja_b-yZ2VSSgNLOl4&callback=initMap"></script>
   </head>
   <body class="text-white bg-customblue">
     <header
@@ -25,7 +24,7 @@
             <a href="#">
               <img
                 class="md:w-32"
-                src="../../assets/img/logo.png"
+                src="../../assets/img/logo-metadev.png"
                 alt=""
                 height="auto"
                 width="80px"
@@ -74,19 +73,19 @@
             id="nav-menu"
             class="grid grid-rows-3 backdrop-blur-sm bg-white/30 h-screen md:flex-col md:w-screen md:pr-8 md:flex md:bg-white/30 md:backdrop-blur-sm"
           >
-          <div
-            class="flex justify-end items-start w-full md:flex md:justify-end md:w-full"
-          >
-            <img
-              id="close"
-              class="block"
-              annuler
-              src="../../assets/img/icons8-annuler-96.png"
-              alt="annuler"
-              width="60px"
-              height="60px"
-            />
-          </div>
+            <div
+              class="flex justify-end items-start w-full md:flex md:justify-end md:w-full"
+            >
+              <img
+                id="close"
+                class="block"
+                annuler
+                src="../../assets/img/icons8-annuler-96.png"
+                alt="annuler"
+                width="60px"
+                height="60px"
+              />
+            </div>
             <div class="flex flex-col justify-center items-center">
               <li class="text-2xl text-cyan-400 md:mr-5 lg:text-4xl">
                 <a href="#">Acceuil</a>
@@ -373,53 +372,65 @@
     <footer class="mt-auto w-full bg-customblue pt-12">
       <section class="container">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:w-screen">
-          <div class="flex justify-center py-5 ml-4 md:items-center md:grid md:grid-cols-2 lg:justify-start">
+          <div
+            class="flex justify-center py-5 ml-4 md:items-center md:grid md:grid-cols-2 lg:justify-start"
+          >
             <div class="flex items-center md:ml-8 lg:ml-12">
-                <ul>
-                  <li class="border border-cyan-400 rounded-2xl px-5 py-1 hover:bg-cyan-700">
-                    <a href="#">Nos services</a>
-                  </li>
-                  <li class="my-3 border border-cyan-400 rounded-2xl px-5 py-1 hover:bg-cyan-700">
-                    <a href="#">Contact</a>
-                  </li>
-                  <li class="border border-cyan-400 rounded-2xl px-5 py-1 hover:bg-cyan-700">
-                    <a href="#">Nos tarifs</a>
-                  </li>
-                </ul>
-              </div>
-              <div>
-                <a href="#">
-                  <img
+              <ul>
+                <li
+                  class="border border-cyan-400 rounded-2xl px-5 py-1 hover:bg-cyan-700"
+                >
+                  <a href="#">Nos services</a>
+                </li>
+                <li
+                  class="my-3 border border-cyan-400 rounded-2xl px-5 py-1 hover:bg-cyan-700"
+                >
+                  <a href="#">Contact</a>
+                </li>
+                <li
+                  class="border border-cyan-400 rounded-2xl px-5 py-1 hover:bg-cyan-700"
+                >
+                  <a href="#">Nos tarifs</a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <a href="#">
+                <img
                   src="../../assets/img/logoMetadev.png"
                   alt="logo"
                   height="auto"
                   class="w-64 lg:w-80"
-                  />
-                </a>
-              </div>
+                />
+              </a>
             </div>
-              <div class="md:pt-5">
-                <div class="flex flex-row justify-center mb-6">
-                  <h1 class="text-xl md:border border-cyan-400 rounded-2xl px-7 py-1 hover:bg-cyan-700">Rejoignez-nous 🚀</h1>
-                </div>
-                <div class="flex justify-around py-8">
-                  <span>
-                    <i class="fa-brands fa-facebook fa-border ml-5"></i>
-                    <p class="text-sm mt-2">Facebook</p>
-                  </span>
-                  <span>
-                    <i class="fa-brands fa-linkedin-in fa-border ml-5"></i>
-                    <p class="text-sm mt-2">LinkedIn</p>
-                  </span>
-                  <span>
-                    <i class="fa-brands fa-instagram fa-border ml-8"></i>
-                    <p class="text-sm mt-2">Instagram</p>
-                  </span>
-                </div>
-              </div>
+          </div>
+          <div class="md:pt-5">
+            <div class="flex flex-row justify-center mb-6">
+              <h1
+                class="text-xl md:border border-cyan-400 rounded-2xl px-7 py-1 hover:bg-cyan-700"
+              >
+                Rejoignez-nous 🚀
+              </h1>
+            </div>
+            <div class="flex justify-around py-8">
+              <span>
+                <i class="fa-brands fa-facebook fa-border ml-5"></i>
+                <p class="text-sm mt-2">Facebook</p>
+              </span>
+              <span>
+                <i class="fa-brands fa-linkedin-in fa-border ml-5"></i>
+                <p class="text-sm mt-2">LinkedIn</p>
+              </span>
+              <span>
+                <i class="fa-brands fa-instagram fa-border ml-8"></i>
+                <p class="text-sm mt-2">Instagram</p>
+              </span>
+            </div>
+          </div>
         </div>
       </section>
-        <hr class="border-double border-2 border-cyan-400" />
+      <hr class="border-double border-2 border-cyan-400" />
       <section class="container">
         <div class="grid grid-cols-1 grid-rows-2 gap-y-6 lg:w-screen">
           <div class="flex justify-center pt-4">
@@ -437,7 +448,10 @@
       <section class="container">
         <div class="grid grid-cols-2">
           <div class="flex justify-end md:justify-start ml-2 lg:ml-20">
-            <h1 class="text-xs pt-8 md:text-lg">© Metadev 2022 - Copyright <br> Made with fun by MRP </h1>
+            <h1 class="text-xs pt-8 md:text-lg">
+              © Metadev 2022 - Copyright <br />
+              Made with fun by MRP
+            </h1>
           </div>
           <div class="flex justify-end">
             <div>
@@ -455,5 +469,3 @@
     </footer>
   </body>
 </html>
-
-    
