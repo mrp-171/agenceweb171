@@ -1,4 +1,6 @@
 import "./assets/css/styles.css";
+import "@fortawesome/fontawesome-free/js/all";
+import Menu from "./components/menu";
 
 let button = document.getElementById("dark-mode");
 // pour vérifier si la valeur button est bien liée

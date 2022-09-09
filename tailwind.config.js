@@ -40,6 +40,13 @@ module.exports = {
       mono: ["'DM Mono'", ...defaultTheme.fontFamily.mono]
       }
     },
+    backgroundImage: {
+      "header-planet":"url('/assets/img/planete.jpg')",
+      "wave":"url('/assets/img/wave.png')",
+    },
+    fontFamily: {
+      'dm-mono': ['dm-mono'],
+    },
   },
   plugins: [],
-};
+}
