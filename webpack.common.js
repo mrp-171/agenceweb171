@@ -4,27 +4,21 @@ const CopyPlugin = require("copy-webpack-plugin");
 
 module.exports = {
   entry: path.resolve(__dirname, "./src/app.js"),
-  mode: "development",
   output: {
     filename: "[name].bundle.js",
     path: path.resolve(__dirname, "dist"),
-    publicPath: "/assets/",
     clean: true,
-  },
-  devtool: "inline-source-map",
-  devServer: {
-    static: path.resolve(__dirname, "./dist"),
   },
   optimization: {
     runtimeChunk: "single",
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: path.resolve(dirname, "./src/pages/home/index.html"),
+      template: path.resolve(__dirname, "./src/pages/home/index.html"),
       filename: "index.html",
     }),
     new HtmlWebpackPlugin({
-      template: path.resolve(dirname, "./src/pages/services/index.html"),
+      template: path.resolve(__dirname, "./src/pages/services/index.html"),
       filename: "services.html",
     }),
     new HtmlWebpackPlugin({
