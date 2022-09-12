@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: 
+
+user-agent: Googlebot-Image
+Disallow: /img/
+
+
+Sitemap: https://metadev-acs.netlify.app/sitemap.xml
