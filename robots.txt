@@ -1,12 +1,10 @@
 # Access to everything except for img file
-User-agent: Googlebot
-Disallow: 
 
 User-agent: *
 Allow: /
-
+User-agent: Googlebot
+Disallow: 
 User-agent: Googlebot-Image
 Disallow: /img
-
 
 Sitemap: https://metadev-acs.netlify.app/sitemap.xml
