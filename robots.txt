@@ -1,7 +1,7 @@
 # Access to everything except for img file
 
 User-agent: *
-Allow: /
+Disallow:
 User-agent: Googlebot
 Disallow: 
 User-agent: Googlebot-Image
