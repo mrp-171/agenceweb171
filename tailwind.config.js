@@ -41,8 +41,8 @@ module.exports = {
       }
     },
     backgroundImage: {
-      "header-planet":"url('/assets/img/planete.jpg')",
-      "wave":"url('/assets/img/wave.png')",
+      "header-planet":"url('/assets/img/planete.webp')",
+      "wave":"url('/assets/img/wave.webp')",
     },
     fontFamily: {
       'dm-mono': ['dm-mono'],
