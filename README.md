@@ -1,8 +1,8 @@
 # OnlineFormaPro - ACS 2022 - Projet Agence Web - FR Version
 
-Pour ce début de projet, nous avons crée un groupe de 3 afin de créer une agence Web. L'objectif final étant d'avoir une agence web active tout au long de la formation afin d'effectuer divers challenges et de la concurrence face à de futurs projets. 
+Pour ce début de projet, nous avons crée un groupe de 3 afin de créer une agence Web. L'objectif final étant d'avoir une agence web active tout au long de la formation afin d'effectuer divers challenges et de la concurrence face à de futurs projets.
 
-Chaque équipe est composé d'un Lead Dev et de Développeurs. Ainsi chaque mois environ, lors d'un nouveau projet, les équipes seront interverties. Au moins un ou deux collaborateurs seront relocalisé dans une autre agence web. 
+Chaque équipe est composé d'un Lead Dev et de Développeurs. Ainsi chaque mois environ, lors d'un nouveau projet, les équipes seront interverties. Au moins un ou deux collaborateurs seront relocalisé dans une autre agence web.
 
 ## Score GT Metrix
 
@@ -36,7 +36,7 @@ Structure : 97%
 ## Liens vers le projet
 
 - [Github](https://github.com/mrp-171/agenceweb171)
-- [Netlify ](https://metadev-acs.netlify.app/)
+- [Netlify](https://metadev-acs.netlify.app/)
 
 ## Contact
 
@@ -44,12 +44,11 @@ Structure : 97%
 - Ruben Berthe    👨🏽‍💻  [GitHub](https://github.com/Rube3n)
 - Medhi Cesa      👨🏻‍💻  [GitHub](https://github.com/JSTKode)
 
-
 ## Ressources
 
 - [Octopus](https://octopus.do/)
 - [Font Awesome](https://fontawesome.com/)
-- [Figma] (https://www.figma.com/)
+- [Figma](https://www.figma.com/)
 - [Tailwind](https://tailwindcss.com/)
 - [Photopea](https://www.photopea.com/)
 - [Adobe photoshop](https://www.adobe.com/fr/products/photoshop/landpb.html?gclid=CjwKCAjwx7GYBhB7EiwA0d8oe-hjdZeFhreO9CwDTbjcN-oc4YgMe5LtJ9VcswM678LAVxK1KGHXxhoC2WUQAvD_BwE&mv=search&mv=search&sdid=GVTYXZY8&ef_id=CjwKCAjwx7GYBhB7EiwA0d8oe-hjdZeFhreO9CwDTbjcN-oc4YgMe5LtJ9VcswM678LAVxK1KGHXxhoC2WUQAvD_BwE:G:s&s_kwcid=AL!3085!3!592020161475!e!!g!!adobe%20photoshop!16832736920!134990730466)
@@ -64,20 +63,20 @@ Structure : 97%
 - [W3C](https://www.w3.org/)
 - [MDN](https://developer.mozilla.org/fr/)
 
-
                                ==================================================================
 
-# OnlineFormaPro - ACS 2022 - web Agency project - EN Version
+## Onlineformapro - ACS 2022 - Web agency Project - EN Version
 
-For this project, we created a group of 3 people to create a web agency. The final objective being to have an active web agency throughout the class in order to carry out various challenges and compete for future projects. 
+For this project, we created a group of 3 people to create a web agency. The final objective being to have an active web agency throughout the class in order to carry out various challenges and compete for future projects.
 
-Each team is composed of a Lead Dev and Developers. So every month or so, when a new project comes up, the teams will be switched. At least one or two collaborators will be relocated to another web agency. 
+Each team is composed of a Lead Dev and Developers. So every month or so, when a new project comes up, the teams will be switched. At least one or two collaborators will be relocated to another web agency.
 
-## GT Metrix score
+### GT Metrix score
 
+Performance : 78% - B
+Structure : 97%
 
-
-## 📝Steps
+### 📝Steps
 
 > Creation of an identity for the Agency: Logo + Name
 
@@ -101,24 +100,22 @@ Each team is composed of a Lead Dev and Developers. So every month or so, when a
 4. Test the site on GT Metrix
 5. Add a robots.txt/ sitemap.xml file to the project.
 
-
-## Links to the project
+### Links to the project
 
 - [Github](https://github.com/mrp-171/agenceweb171)
-- [Netlify ](https://metadev-acs.netlify.app/)
+- [Netlify](https://metadev-acs.netlify.app/)
 
-## Contact
+### Dev profiles
 
 - Priska Derville 👩🏾‍💻  [GitHub](https://github.com/PriskaSama)
 - Ruben Berthe    👨🏽‍💻  [GitHub](https://github.com/Rube3n)
 - Medhi Cesa      👨🏻‍💻  [GitHub](https://github.com/JSTKode)
 
-
-## Ressources
+### Apendix
 
 - [Octopus](https://octopus.do/)
 - [Font Awesome](https://fontawesome.com/)
-- [Figma] (https://www.figma.com/)
+- [Figma](https://www.figma.com/)
 - [Tailwind](https://tailwindcss.com/)
 - [Photopea](https://www.photopea.com/)
 - [Adobe photoshop](https://www.adobe.com/fr/products/photoshop/landpb.html?gclid=CjwKCAjwx7GYBhB7EiwA0d8oe-hjdZeFhreO9CwDTbjcN-oc4YgMe5LtJ9VcswM678LAVxK1KGHXxhoC2WUQAvD_BwE&mv=search&mv=search&sdid=GVTYXZY8&ef_id=CjwKCAjwx7GYBhB7EiwA0d8oe-hjdZeFhreO9CwDTbjcN-oc4YgMe5LtJ9VcswM678LAVxK1KGHXxhoC2WUQAvD_BwE:G:s&s_kwcid=AL!3085!3!592020161475!e!!g!!adobe%20photoshop!16832736920!134990730466)
