@@ -29,17 +29,13 @@ Chaque équipe est composé d'un Lead Dev et de Développeurs. Ainsi chaque mois
 1. Création d'un compte Netlify et hébergement du site.
 2. Tester les pages en responsive.
 3. Merge de toutes les branches du projet.
-4. tester le site sur GT Metrix.
+4. Tester le site sur GT Metrix.
 5. Ajouter un fichier robots.txt/ sitemap.xml à la source du projet.
-
-## 📸Screenshots
-
-- ![Page d'acceuil]()
 
 ## Liens vers le projet
 
-- Github
-- Netlify 
+- [Github](https://github.com/mrp-171/agenceweb171)
+- [Netlify ](https://metadev-acs.netlify.app/)
 
 ## Contact
 
@@ -105,14 +101,10 @@ Each team is composed of a Lead Dev and Developers. So every month or so, when a
 5. Add a robots.txt/ sitemap.xml file to the project.
 
 
-## 📸Screenshots
-
-- ![Page d'acceuil]()
-
 ## Links to the project
 
-- Github
-- Netlify 
+- [Github](https://github.com/mrp-171/agenceweb171)
+- [Netlify ](https://metadev-acs.netlify.app/)
 
 ## Contact
 
