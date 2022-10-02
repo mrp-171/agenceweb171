@@ -1,7 +1,6 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const CopyPlugin = require("copy-webpack-plugin");
-const RobotstxtPlugin = require("robotstxt-webpack-plugin");
 
 module.exports = {
   entry: path.resolve(__dirname, "./src/app.js"),
@@ -30,10 +29,8 @@ module.exports = {
       patterns: [
         { from: "./src/assets/fonts/", to: "assets/fonts/" },
         { from: "./src/assets/img/", to: "assets/img/" },
-        { from: './robots.txt', to: './robots.txt' }
       ],
     }),
-    new RobotstxtPlugin(options)
   ],
   module: {
     rules: [
@@ -61,20 +58,4 @@ module.exports = {
       }
     ],
   },
-  policy: [
-    {
-      userAgent: "Googlebot",
-      disallow: "",
-    },
-    {
-      userAgent: "Googlebot",
-      disallow: "",
-    },
-    {
-      userAgent: "Googlebot-Image",
-      disallow: "/src/assets/img",
-    },
-  ],
-  sitemap: "https://metadev-mrp.netlify.app/sitemap.xml",
-  host: "https://metadev-mrp.netlify.app",
 };
