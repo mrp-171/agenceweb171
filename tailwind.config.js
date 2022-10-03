@@ -1,7 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 
+const { transform } = require("lodash");
 const colors = require("tailwindcss/colors");
-const defaultTheme = require('tailwindcss/defaultTheme')
+const defaultTheme = require("tailwindcss/defaultTheme");
 
 module.exports = {
   content: ["./src/**/*.{html,js}"],
@@ -36,17 +37,28 @@ module.exports = {
       rose: colors.rose,
     },
     extend: {
+      keyframes: {
+        glitch: {
+          "1%": { transform: "rotateX(10deg)", transform: "skweX(0deg)" },
+          "2%": { transform: "rotateX(0deg)", transform: "skweX(0deg)" },
+        },
+      },
+
+      animation: {
+        rotate: '6s linear infinite',
+      },
+
       fontFamily: {
-      mono: ["'DM Mono'", ...defaultTheme.fontFamily.mono]
-      }
+        mono: ["'DM Mono'", ...defaultTheme.fontFamily.mono],
+      },
     },
     backgroundImage: {
-      "header-planet":"url('/assets/img/planete.webp')",
-      "wave":"url('/assets/img/wave.webp')",
+      "header-planet": "url('/assets/img/planete.webp')",
+      wave: "url('/assets/img/wave.webp')",
     },
     fontFamily: {
-      'dm-mono': ['dm-mono'],
+      "dm-mono": ["dm-mono"],
     },
   },
   plugins: [],
-}
+};
