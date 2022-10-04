@@ -1,15 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-
-      gtag("config", "G-SDQXVY408F");
-    </script>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -22,34 +13,12 @@
   </head>
 
   <body class="text-white font-dm-mono bg-customblue overflow-x-hidden">
-    <header
-      class="h-80 bg-header-planet bg-center bg-cover w-full lg:bg-cover lg:h-screen lg:bg-center"
-    >
-      <section>
-        <div class="w-screen"></div>
-      </section>
-      <div id="header">
-        <div
-          class="grid grid-cols-2 md:grid md:grid-cols-3 md:h-40 lg:grid lg:grid-cols-3"
-        >
-          <div
-            class="p-2 md:flex md:justify-center md:items-start md:col-start-2 lg:col-start-1 lg:w-52 lg:pt-16"
-          >
-            <a target="_blank" href="https://metadev-mrp.netlify.app/">
-              <img
-                class="md:w-32"
-                src="../../assets/img/logo-Metadev.webp"
-                alt=""
-                height="auto"
-                width="80px"
-              />
-            </a>
-          </div>
+    <header class="h-auto w-full">
+      <div id="header" class="bg-customblue w-full fixed top-0">
+        <div class="grid grid-cols-3 md:h-40">
           <div class="hidden lg:flex lg:col-span-2">
-            <nav class="lg:flex">
-              <ul
-                class="lg:flex lg:flex-row lg:pt-8 lg:justify-center lg:items-center"
-              >
+            <nav class="flex items-center">
+              <ul class="flex flex-row mx-8 uppercase">
                 <li class="lg:text-4xl text-cyan-400">
                   <a target="_blank" href="https://metadev-mrp.netlify.app/"
                     >Accueil</a
@@ -75,16 +44,23 @@
               </ul>
             </nav>
           </div>
+          <div class="flex justify-center items-center lg:hidden">
+            <span id="menu-mobile">
+              <i class="fa-solid fa-bars fa-2xl"></i>
+            </span>
+          </div>
           <div
-            class="flex justify-end mg:flex mg:justify-end md:h-20 lg:hidden"
+            class="col-span-2 flex justify-center items-center p-4 lg:pl-40 lg:col-auto"
           >
-            <img
-              src="../../assets/img/menu-hmg.webp"
-              alt="menu hamburger"
-              id="menu-mobile"
-              class="block lg::hidden"
-              width="80px"
-            />
+            <a target="_blank" href="https://metadev-mrp.netlify.app/">
+              <img
+                class="md:w-32"
+                src="../../assets/img/logo-Metadev.webp"
+                alt=""
+                height="auto"
+                width="80px"
+              />
+            </a>
           </div>
         </div>
       </div>
@@ -137,43 +113,84 @@
           </ul>
         </div>
       </nav>
-      <div class="">
-        <h1 class="text-3xl" data-text="Meta-dev" after:data-text>Meta-dev</h1>
-      </div>
     </header>
-    <div class="-mt-20 md:-mt-32 lg:-mt-56 xl:-mt-80">
-      <img src="../../assets/img/wave (7).svg" alt="" />
+    <div class="bg-header-planet bg-center bg-cover w-full mt-20 h-40 lg:h-screen">
+      <div class="w-screen h-full flex justify-center items-center">
+        <h1 class="text-2xl uppercase lg:text-5xl" data-text="Meta-dev" after:data-text>
+          <!-- Animation text -->
+          <!-- <section>
+            <div class="w-screen"></div>
+          </section> -->
+          Bienvenue à MetaDev, une idée, un rêve, une solution
+        </h1>
+      </div>
     </div>
-    <div>
-      <h1 class="text-center text-3xl xl:text-6xl text-cyan-400">
-        Qui sommes nous?
-      </h1>
+    <div class="-mt-20 lg:-mt-80">
+      <img src="../../assets/img/wave (7).svg" alt="" />
     </div>
     <div
       class="pt-20 md:mt-20 md:justify-center md:items-center lg:grid lg:grid-cols-2 lg:col-span-2"
     >
-      <div>
+      <h1 class="text-center uppercase mx-4 text-3xl xl:text-6xl text-cyan-400">
+        Bonjour
+      </h1>
+      <div class="flex justify-center py-8">
+        <img
+          src="../../assets/img/astro-riding.png"
+          alt=""
+          class="h-auto w-40 lg:w-80"
+        />
+      </div>
+      <div
+        class="flex flex-col justify-center border border-cyan-400 rounded-2xl py-14 px-4 mx-8 lg:mx-0 lg:mr-20 lg:ml-4"
+      >
+      <p class="lg:w-2/3 mx-auto leading-relaxed text-base xl:text-lg">
+        Trois dev junior récemment diplômé, qui ont décidés de créer cette
+        agence en 2022 afin d'aider les entreprises ou particuliers à
+        améliorer leur notoriété sur le web.
+      </p>
+      <p class="py-8 lg:w-2/3 mx-auto leading-relaxed text-base xl:text-lg">
+        Que ce soit un site pour vendre des biens/services ou un blog afin de
+          partager votre passion (nous c'est l'astronomie et vous?) nous sommes
+          là pour vous aider.
+      </p>
+      <p class="py-8 lg:w-2/3 mx-auto leading-relaxed text-base xl:text-lg">
+        Du design de la maquette au référencement SEO/SEA, nous vous
+          accompagnons tout du long!
+      </p>
+      </div>
+    </div>
+    <div
+      class="pt-20 md:mt-20 md:justify-center md:items-center lg:grid lg:grid-cols-2 lg:col-span-2"
+    >
+    <hr class="lg:hidden">
+      <h1 class="text-center uppercase mx-4 mt-8 text-3xl xl:text-6xl text-cyan-400">
+        Qui sommes nous?
+      </h1>
+      <div class="flex justify-center py-8">
         <img
           src="../../assets/img/astro-question.webp"
           alt=""
-          class="lg:w-4/5"
+          class="h-auto w-40 lg:w-80"
         />
       </div>
-      <div class="border border-cyan-400 rounded-2xl px-26 py-14 mr-20">
-        <p
-          class="z-10 leading-relaxed mx-auto text-center md:text-center xl:text-lg lg:pr-10"
-        >
-          Trois dev junior récemment diplômé, qui ont décidés de créer cette
-          agence en 2022 afin d'aider les entreprises ou particuliers à
-          améliorer leur notoriété sur le web.<br />
-          Nous mettons en avant notre savoir-faire, expertise et créativité afin
-          de délivrer et améliorer le développement de votre activité. <br />
-          Que ce soit un site pour vendre des biens/services ou un blog afin de
+      <div
+        class="flex flex-col justify-center border border-cyan-400 rounded-2xl py-14 px-4 mx-8 lg:mx-auto lg:ml-4"
+      >
+      <p class="lg:w-2/3 mx-auto leading-relaxed text-base xl:text-lg">
+        Trois dev junior récemment diplômé, qui ont décidés de créer cette
+        agence en 2022 afin d'aider les entreprises ou particuliers à
+        améliorer leur notoriété sur le web.
+      </p>
+      <p class="py-8 lg:w-2/3 mx-auto leading-relaxed text-base xl:text-lg">
+        Que ce soit un site pour vendre des biens/services ou un blog afin de
           partager votre passion (nous c'est l'astronomie et vous?) nous sommes
-          là pour vous aider. <br />
-          Du design de la maquette au référencement SEO/SEA, nous vous
+          là pour vous aider.
+      </p>
+      <p class="py-8 lg:w-2/3 mx-auto leading-relaxed text-base xl:text-lg">
+        Du design de la maquette au référencement SEO/SEA, nous vous
           accompagnons tout du long!
-        </p>
+      </p>
       </div>
     </div>
     <div>
@@ -181,29 +198,35 @@
       <img src="../../assets/img/wave (8).svg" alt="" />
     </div>
     <section class="text-white body-font -mt-10">
-      <div class="container px-5 py-24 mx-auto">
+      <div class="container px-5 pt-24 pb-4 mx-auto">
         <div class="flex flex-col text-center w-full mb-20">
           <h1
-            class="text-2xl font-medium title-font mb-4 text-skyblue xl:text-7xl"
+            class="text-2xl font-medium title-font mb-4 text-skyblue uppercase xl:text-7xl lg:mb-20"
           >
             Notre Team
           </h1>
           <p class="lg:w-2/3 mx-auto leading-relaxed text-base xl:text-lg">
             Alors dans notre team y'en qu'un qui bosse et c'est bien sur Mehdi
             comme d'hab car les autres sont en retard vous pouvez même pas
-            l'imaginer c'est fou. <br />
+            l'imaginer c'est fou.
+          </p>
+          <p class="py-8 lg:w-2/3 mx-auto leading-relaxed text-base xl:text-lg">
             Y'a l'autre qui galère avec son burger bien sur pas la nourriture
-            hein on est pas au BK mais je parle bien du menu burger. <br />
+            hein on est pas au BK mais je parle bien du menu burger.
+          </p>
+          <p class="lg:w-2/3 mx-auto leading-relaxed text-base xl:text-lg">
             Et pour finir la Lead dev qui ne fait absolument rien de ses
             journées à par écouter de la musique et faire semblant de code le
             footer car soit disant une API Google Map c'est trop dur à coder.
-            <br />
+          </p>
+          <p class="pt-8 lg:w-2/3 mx-auto leading-relaxed text-base xl:text-lg">
             Bref j'ai une équipe de cotorep.
           </p>
         </div>
-        <!-- BLOCK 1 -->
+        <!-- BLOCK 1 - TEAM PRESENTATION -->
+        <hr/>
         <div
-          class="flex flex-wrap -m-4 lg:grid-cols-3 lg:flex lg:justify-center"
+          class="flex flex-wrap mt-20 lg:grid-cols-3 lg:flex lg:justify-center"
         >
           <div class="p-4 lg:w-1/4 md:w-1/2">
             <div class="h-full flex flex-col items-center text-center">
@@ -269,7 +292,6 @@
               </div>
             </div>
           </div>
-          <!-- BLOCK 2 -->
           <div class="p-4 lg:w-1/4 md:w-1/2">
             <div class="h-full flex flex-col items-center text-center">
               <!-- IMAGE 2 -->
@@ -402,13 +424,9 @@
         </div>
       </div>
     </section>
-
-    <div>
-      <img src="../../assets/img/wave (9).svg" alt="" />
-      <img src="../../assets/img/wave (8).svg" alt="" />
-    </div>
-    <section class="text-skyblue body-font z-1 -mt-24 xl:text-2xl">
-      <div class="container px-5 py-24 mx-auto">
+    <hr class="mx-4" />
+    <section class="pt-20 lg:pt-0text-skyblue body-font z-1 xl:text-2xl">
+      <div class="">
         <div
           class="-m-4 text-center grid grid-rows-4 md:flex md:justify-center"
         >
@@ -434,7 +452,7 @@
             <h2
               class="title-font font-medium text-4xl xl:pr-32 lg:pr-20 text-white"
             >
-              35
+              6
             </h2>
             <p class="leading-relaxed font-bold xl:pr-32 lg:pr-20">
               Partenaires
@@ -456,12 +474,12 @@
     <img src="../../assets/img/wave (9).svg" alt="" />
     <img src="../../assets/img/wave (8).svg" alt="" />
     <h1
-      class="text-cyan-400 text-3xl text-center md:text-3xl md:m-24 lg:text-4xl xl:text-6xl"
+      class="text-cyan-400 text-3xl text-center uppercase md:text-3xl md:m-24 lg:text-4xl xl:text-6xl"
     >
       Nos partenaires
     </h1>
     <section
-      class="flex justify-center overflow-auto snap-mandatory p-4 gap-3 scroll-p-4 mt-24 lg:scroll-m-0 lg:overflow-hidden"
+      class="flex justify-center overflow-auto snap-mandatory p-4 gap-3 scroll-p-4 mt-24 mb-24 lg:scroll-m-0 lg:overflow-hidden"
     >
       <div
         class="flex snap-start snap-always lg:snap-none lg lg:grid lg:grid-cols-3"
@@ -510,19 +528,12 @@
         <!-- </div> -->
       </div>
     </section>
-    <div class="mt-6">
-      <img
-        src="../../assets/img/wavesfooter.webp"
-        alt="wavesfooter"
-        height="auto"
-        width="100%"
-      />
-    </div>
+    <hr class="border-double border-2 border-cyan-400" />
     <footer class="mt-auto w-full bg-customblue pt-12">
       <section class="container">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:w-screen">
           <div
-            class="flex justify-center py-5 ml-4 md:items-center md:grid md:grid-cols-2 lg:justify-start"
+            class="hidden lg:flex justify-center py-5 ml-4 md:items-center md:grid md:grid-cols-2 lg:justify-start"
           >
             <div class="flex items-center md:ml-8 lg:ml-12">
               <ul>
@@ -563,17 +574,17 @@
             </div>
           </div>
           <div class="md:pt-5">
-            <div class="flex flex-row justify-center mb-6">
+            <div class="flex flex-row justify-center mb-6 border border-cyan-400 rounded-2xl mx-20 py-1 md:mx-10 hover:bg-cyan-700 xl:text-xl lg:px-7">
               <h1
-                class="text-xl xl:text-2xl lg:px-9 md:border border-cyan-400 rounded-2xl px-7 py-1 hover:bg-cyan-700"
+                class="text-xl xl:text-2xl"
               >
                 Rejoignez-nous 🚀
               </h1>
             </div>
             <div class="flex justify-around py-8">
               <span>
-                <i class="fa-brands fa-facebook fa-border fa-lg ml-5"></i>
-                <p class="text-sm md:text-lg xl:text-xl mt-2">Facebook</p>
+                <i class="fa-brands fa-github fa-border fa-lg ml-5"></i>
+                <p class="text-sm md:text-lg xl:text-xl mt-2 ml-3">Github</p>
               </span>
               <span>
                 <i class="fa-brands fa-linkedin-in fa-border fa-lg ml-5"></i>
@@ -581,7 +592,7 @@
               </span>
               <span>
                 <i class="fa-brands fa-instagram fa-border fa-lg ml-8"></i>
-                <p class="text-sm md:text-lg xl:text-xl mt-2">Instagram</p>
+                <p class="text-sm md:text-lg xl:text-xl mt-2 ml-3">Instagram</p>
               </span>
             </div>
           </div>
