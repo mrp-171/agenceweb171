@@ -38,14 +38,36 @@ module.exports = {
     },
     extend: {
       keyframes: {
-        glitch: {
-          "1%": { transform: "rotateX(10deg)", transform: "skweX(0deg)" },
-          "2%": { transform: "rotateX(0deg)", transform: "skweX(0deg)" },
-        },
+        // move: {
+        //   "25%": {
+        //     opacity: 1,
+        
+        //   },
+        //   "33%": {
+        //     opacity: 1,
+        //     transform: translateY("30px")
+        //   },
+        //   "67%": {
+        //     opacity: 1,
+        //     transform: translateY("40px")
+        //   },
+        //   "100%": {
+        //     opacity: 0,
+        //     transform: translateY("55px"), 
+        //     scale3d:(0.5, 0.5, 0.5)
+        //   }
+        // },
+
+        pulse: {
+          "to": {
+            opacity: 1,
+          }
+        }
       },
 
       animation: {
-        rotate: '6s linear infinite',
+        move: '3s ease-out 1s infinite',
+        pulse: '2s linear alternate infinite',
       },
 
       fontFamily: {
@@ -54,7 +76,7 @@ module.exports = {
     },
     backgroundImage: {
       "header-planet": "url('/assets/img/planete.webp')",
-      wave: "url('/assets/img/wave.webp')",
+      wave: "url('/assets/img/wave-body.png')",
     },
     fontFamily: {
       "dm-mono": ["dm-mono"],
