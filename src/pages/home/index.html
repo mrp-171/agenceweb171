@@ -10,15 +10,18 @@
     />
     <title>Accueil</title>
     <link href="../../assets/css/output.css" rel="stylesheet" />
+    <link rel="shorcut icon" type="image/x-icon" href="../../assets/img/favicon.ico"/>
   </head>
   <body class="text-white font-dm-mono overflow-x-hidden bg-customblue">
     <header class="h-auto w-full">
+                      <!-- Nav laptop -->
+
       <div id="header" class="bg-customblue fixed top-0 w-screen z-20">
         <div class="grid grid-cols-3 md:h-40">
           <div class="hidden lg:flex lg:col-span-2 lg:justify-center">
             <nav class="flex items-center">
               <ul class="flex flex-row mx-8 uppercase">
-                <li class="lg:text-2xl text-purple-500">
+                <li class="lg:text-2xl text-purple-500 ">
                   <a href="https://metadev-mrp.netlify.app/"
                     >Accueil</a
                   >
@@ -32,7 +35,7 @@
                 <li class="lg:text-2xl lg:pl-12 hover:scale-125 hover:ease-in-out hover:duration-300 hover:text-purple-500">
                   <a href="https://metadev-mrp.fr/">Boutique</a>
                 </li>
-                <li class="lg:text-2xl lg:pl-36 hover:scale-125 hover:ease-in-out hover:duration-300 hover:text-purple-500">
+                <li class="lg:text-2xl lg:pl-36 cursor-pointer hover:scale-125 hover:ease-in-out hover:duration-300 hover:text-purple-500">
                   <a
                     href="https://metadev-mrp.netlify.app/contact"
                     >Contact</a
@@ -61,6 +64,8 @@
           </div>
         </div>
       </div>
+
+            <!-- Nav-mobile -->
       <nav>
         <div
           id="nav-links"
@@ -112,24 +117,16 @@
         </div>
       </nav>
     </header>
-    <div
-      class="bg-header-planet bg-center bg-cover w-full mt-20 h-40 lg:h-screen"
-    >
-      <div class="w-screen h-full flex justify-center items-center lg:w-full">
-        <h1
-          class="text-xl uppercase lg:text-5xl text-center"
-          data-text="Meta-dev"
-          after:data-text
-        >
+                <!-- Section First -->
+
+    <div class="bg-header-planet bg-center bg-cover w-full mt-20 h-40 lg:h-screen">
+      <div class="w-screen h-full flex justify-center items-center">
+        <h1 class="text-2xl text-center uppercase lg:text-5xl">
           Une idée, un rêve, une solution... MetaDev
         </h1>
       </div>
-        <div class="lg:w-7 lg:h-2 lg:move">
-
-        </div>
-      </div>
     </div>
-    <div class="-mt-20 lg:-mt-80">
+    <div class="-mt-16 lg:-mt-80">
       <img src="../../assets/img/wave (7).svg" alt="" />
     </div>
     <div
@@ -144,6 +141,8 @@
           class="h-auto w-40 lg:w-80"
         />
       </div>
+                        <!-- Présentation -->
+
       <div>
         <h1
           class="text-center uppercase mx-4 text-3xl xl:text-6xl text-cyan-400"
@@ -199,6 +198,8 @@
           </p>
         </div>
       </div>
+                        <!-- Séparation -->
+
       <div class="flex justify-center py-8">
         <img
           src="../../assets/img/astro-question.webp"
@@ -207,10 +208,30 @@
         />
       </div>
     </div>
-    <div class="">
-      <img src="../../assets/img/wave-body.png" alt=""
-      class="w-full">
-    </div>
+      <svg
+      class="z-0 -mt-24 xl:-mt-48 w-full"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 1440 320"
+    >
+      <path
+        fill="#f3f4f5"
+        fill-opacity="1"
+        d="M0,192L30,181.3C60,171,120,149,180,154.7C240,160,300,192,360,181.3C420,171,480,117,540,128C600,139,660,213,720,213.3C780,213,840,139,900,101.3C960,64,1020,64,1080,106.7C1140,149,1200,235,1260,245.3C1320,256,1380,192,1410,160L1440,128L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"
+      ></path>
+    </svg>
+    <svg
+      class="xl:-mt-5"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 1440 320"
+    >
+      <path
+        fill="#f3f4f5"
+        fill-opacity="1"
+        d="M0,192L30,181.3C60,171,120,149,180,154.7C240,160,300,192,360,181.3C420,171,480,117,540,128C600,139,660,213,720,213.3C780,213,840,139,900,101.3C960,64,1020,64,1080,106.7C1140,149,1200,235,1260,245.3C1320,256,1380,192,1410,160L1440,128L1440,0L1410,0C1380,0,1320,0,1260,0C1200,0,1140,0,1080,0C1020,0,960,0,900,0C840,0,780,0,720,0C660,0,600,0,540,0C480,0,420,0,360,0C300,0,240,0,180,0C120,0,60,0,30,0L0,0Z"
+      ></path>
+    </svg>
+                  <!-- Notre Team -->
+
     <section class="text-white body-font lg:-mt-10">
       <div class="container px-5 pt-24 pb-4 mx-auto">
         <div class="flex flex-col text-center w-full mb-20 lg:pt-10">
@@ -237,14 +258,13 @@
             Bref j'ai une équipe de cotorep.
           </p>
         </div>
-        <!-- BLOCK 1 - TEAM PRESENTATION -->
+        <!--  TEAM PRESENTATION -->
         <hr />
         <div
           class="flex flex-wrap mt-20 lg:grid-cols-3 lg:flex lg:justify-center lg:py-20"
         >
           <div class="p-4 lg:w-1/4 md:w-1/2">
             <div class="h-full flex flex-col items-center text-center">
-              <!-- IMAGE 1 -->
               <img
                 alt="team"
                 class="flex-shrink-0 rounded-lg w-full -mt-20 h-100 object-cover object-center mb-4"
@@ -370,10 +390,8 @@
               </div>
             </div>
           </div>
-          <!-- BLOCK 3 -->
           <div class="p-4 lg:w-1/4 md:w-1/2 md:-mt-20">
             <div class="h-full flex flex-col items-center text-center">
-              <!-- IMAGE 3 -->
               <img
                 alt="team"
                 class="flex-shrink-0 rounded-lg w-full h-100 object-cover object-center mb-4"
@@ -439,6 +457,8 @@
       </div>
     </section>
     <hr class="mx-4" />
+
+                            <!-- Nos partenaire -->
     <section
       class="pt-20 lg:pt-0text-skyblue body-font z-1 xl:text-2xl w-screen"
     >
@@ -494,52 +514,46 @@
       <div
         class="flex snap-start snap-always lg:snap-none lg lg:grid lg:grid-cols-3 lg:gap-40"
       >
-        <!-- <div class="lg:flex lg:justify-center lg:items-center"> -->
+        
         <img
           src="../../assets/img/nrj.webp"
           alt="nrj"
           class="w-40 h-auto lg:w-96 lg:h-60"
         />
-        <!-- </div> -->
-        <!-- <div> -->
+        
         <img
           src="../../assets/img/odyssey.webp"
           alt="odyssey"
           class="w-40 h-auto lg:w-96 lg:h-60"
         />
-        <!-- </div> -->
-        <!-- <div class="lg:flex lg:justify-center lg:items-start"> -->
+        
         <img
           src="../../assets/img/rez.webp"
           alt="rez"
           class="w-40 h-auto lg:w-96 lg:h-60"
         />
-        <!-- </div> -->
-        <!-- <div class="lg:flex lg:justify-center"> -->
+        
         <img
           src="../../assets/img/thrustmaster.webp"
           alt="thrustmaster"
           class="w-40 h-auto lg:w-96 lg:h-60"
         />
-        <!-- </div> -->
-        <!-- <div class="lg:flex lg:justify-center lg:items-center"> -->
         <img
           src="../../assets/img/ux-partn.webp"
           alt="onexwear"
           class="w-40 h-auto lg:w-96 lg:h-60"
         />
-        <!-- </div> -->
-        <!-- <div class="lg:flex lg:justify-center"> -->
         <img
           class="w-40 h-auto lg:w-96 lg:h-60 lg:col-start-3"
           src="../../assets/img/wavy.webp"
           alt="wavy"
         />
-        <!-- </div> -->
       </div>
     </section>
     <hr class="border border-cyan-400" />
-        <footer class="text-white body-font">
+                              <!-- Footer -->
+
+      <footer class="text-white body-font">
           <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
             <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
               <a class="flex title-font font-medium items-center md:justify-start justify-center text-purple-500">
@@ -649,3 +663,4 @@
         </footer>
   </body>
 </html>
+
