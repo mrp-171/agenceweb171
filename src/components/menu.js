@@ -10,6 +10,7 @@ const Menu = () => {
     navMenu.classList.toggle("hidden");
     header.classList.toggle("hidden");
     body.classList.toggle("overflow-y-hidden");
+    body.classList.toggle("fixed");
   };
   menuMobile.addEventListener("click", showMenu);
   menuClose.addEventListener("click", showMenu);
