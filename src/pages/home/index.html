@@ -126,7 +126,7 @@
         </h1>
       </div>
     </div>
-    <div class="-mt-16 lg:-mt-80">
+    <div class="-mt-16 md:-mt-20 lg:-mt-56">
       <img src="../../assets/img/wave (7).svg" alt="" />
     </div>
     <div
@@ -145,12 +145,12 @@
 
       <div>
         <h1
-          class="text-center uppercase mx-4 text-3xl xl:text-6xl text-cyan-400"
+          class="text-center uppercase mx-4 pb-24 md:pb-12 text-3xl xl:text-6xl text-cyan-400"
         >
           Bonjour
         </h1>
         <div
-          class="border border-cyan-400 rounded-2xl py-14 px-4 mx-8 lg:mt-28"
+          class="border border-cyan-400 rounded-2xl pt-14 px-4 mx-8 lg:mt-28"
         >
           <p class="lg:w-2/3 mx-auto leading-relaxed text-base xl:text-lg">
             Trois dev junior récemment diplômé, qui ont décidés de créer cette
@@ -170,17 +170,17 @@
       </div>
     </div>
     <div
-      class="pt-20 md:mt-20 md:justify-center md:items-center lg:grid lg:grid-cols-2 lg:col-span-2"
+      class="pt-20 pb-12 md:mt-20 md:justify-center md:items-center lg:grid lg:grid-cols-2 lg:col-span-2"
     >
       <hr class="lg:hidden" />
       <div>
         <h1
-          class="text-center uppercase mx-4 mt-8 text-3xl xl:text-6xl text-cyan-400"
+          class="text-center uppercase mx-4 my-24 text-3xl xl:text-6xl text-cyan-400"
         >
           Qui sommes nous?
         </h1>
         <div
-          class="flex flex-col justify-center border border-cyan-400 rounded-2xl py-14 px-4 mx-8 lg:mx-auto lg:ml-4 lg:mt-28"
+          class="flex flex-col justify-center border border-cyan-400 rounded-2xl py-14 px-4 mx-8 lg:mx-auto lg:ml-4 lg:mt-28 lg:mb-28"
         >
           <p class="lg:w-2/3 mx-auto leading-relaxed text-base xl:text-lg">
             Trois dev junior récemment diplômé, qui ont décidés de créer cette
@@ -255,7 +255,7 @@
             footer car soit disant une API Google Map c'est trop dur à coder.
           </p>
           <p class="pt-8 lg:w-2/3 mx-auto leading-relaxed text-base xl:text-lg">
-            Bref j'ai une équipe de cotorep.
+            Bref notre équipe est spéciale mais fait le boulot.
           </p>
         </div>
         <!--  TEAM PRESENTATION -->
@@ -460,7 +460,7 @@
 
                             <!-- Nos partenaire -->
     <section
-      class="pt-20 lg:pt-0text-skyblue body-font z-1 xl:text-2xl w-screen"
+      class="my-20 md:ml-4 lg:pt-0 text-skyblue body-font z-1 xl:text-2xl w-screen"
     >
       <div class="-m-4 text-center grid grid-rows-4 md:flex md:justify-center lg:pl-20">
         <div class="pt-4 grid-start-1 w-screen">
@@ -489,7 +489,7 @@
           </h2>
           <p class="leading-relaxed font-bold xl:pr-32 lg:pr-20">Partenaires</p>
         </div>
-        <div class="grid-start-4 w-screen">
+        <div class="grid-start-4 pt-4 w-screen">
           <h2
             class="title-font font-medium text-4xl xl:pr-32 lg:pr-20 text-white"
           >
@@ -501,10 +501,9 @@
         </div>
       </div>
     </section>
-    <img src="../../assets/img/wave (9).svg" alt="" />
-    <img src="../../assets/img/wave (8).svg" alt="" />
+    <hr class="mx-4" />
     <h1
-      class="text-cyan-400 text-3xl text-center uppercase md:text-3xl md:m-24 lg:text-4xl xl:text-6xl"
+      class="text-cyan-400 text-3xl text-center uppercase pt-20 md:pt-0 md:text-3xl md:mt-44 lg:text-4xl xl:text-6xl"
     >
       Nos partenaires
     </h1>
@@ -556,14 +555,14 @@
       <footer class="text-white body-font">
           <div class="container px-5 py-16 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
             <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
-              <a class="flex title-font font-medium items-center md:justify-start justify-center text-purple-500">
+              <a href="https://metadev-mrp.netlify.app/" class="flex title-font font-medium items-center md:justify-start justify-center text-purple-500">
                 <img
                 src="../../assets/img/saturnpurple.webp"
                 alt="saturn"
                 height="auto"
                 width="60px"
                 />
-                <span class="ml-3 text-xl uppercase">Metadev</span>
+                <span class="ml-3 text-xl uppercase cursor-pointer hover:scale-125 hover:ease-in-out hover:duration-300 hover:bg-purple-500 hover:text-white rounded-2xl px-1">Metadev</span>
               </a>
               <p class="mt-2 text-sm text-white">Une idée, un rêve, une solution, Metadev</p>
             </div>
@@ -640,21 +639,26 @@
           </div>
           <div class="bg-black">
             <div class="container mx-auto py-8 px-5 flex flex-wrap flex-col sm:flex-row">
-              <p class="text-white text-sm text-center sm:text-left">© 2022 <span class="cursor-pointer hover:scale-125 hover:ease-in hover:duration-300">Metadev —</span>
-                <a class="text-white ml-1">Made with 💜 by MRP</a>
+              <p class="text-white text-sm text-center sm:text-left mt-1">© 2022<span><ul class="mb-6">
+                <li class="text-center md:px-4 cursor-pointer hover:scale-125 hover:ease-in-out hover:duration-300 hover:bg-cyan-500 rounded-2xl px-1">
+                  <a href="https://metadev-mrp.netlify.app/">Metadev -</a>
+                </li>
+              </span>
+              </ul>
+                <p class="text-white ml-1 text-center">Made with 💜 by MRP</p>
               </p>
-              <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
-                <a rel="noopener noreferrer"  target="_blank" href="https://github.com/mrp-171/agenceweb171" class="cursor-pointer hover:scale-125 hover:ease-in hover:duration-300">
-                  <i class="fa-brands fa-github fa-xl"></i>
+              <span class="inline-flex sm:ml-auto sm:mt-0 pt-4 mt-2 justify-center sm:justify-start">
+                <a rel="noopener noreferrer"  target="_blank" href="https://github.com/mrp-171/agenceweb171" class="cursor-pointer hover:scale-125 hover:ease-in-out hover:duration-300">
+                  <i class="fa-brands fa-github fa-xl hover:bg-cyan-500 rounded-2xl px-1 py-1"></i>
                 </a>
-                <span class="cursor-pointer hover:scale-125 hover:ease-in hover:duration-300">
-                  <a rel="noopener noreferrer"  class="ml-3 md:px-8" target="_blank" href="https://www.linkedin.com/company/88925125/admin/">
-                    <i class="fa-brands fa-linkedin-in fa-xl"></i>
+                <span class="cursor-pointer hover:scale-125 hover:ease-in-out hover:duration-300">
+                  <a rel="noopener noreferrer" class="ml-3 md:px-8" target="_blank" href="https://www.linkedin.com/company/88925125/admin/" >
+                    <i class="fa-brands fa-linkedin-in fa-xl hover:bg-cyan-500 rounded-2xl px-1 py-1"></i>
                   </a>
                 </span>
-                <span class="cursor-pointer hover:scale-125 hover:ease-in hover:duration-300">
-                  <a class="ml-3" href="#">
-                    <i class="fa-brands fa-instagram fa-xl"></i>
+                <span class="cursor-pointer hover:scale-125 hover:ease-in-out hover:duration-300">
+                  <a class="ml-3" href="#" >
+                    <i class="fa-brands fa-instagram fa-xl hover:bg-cyan-500 rounded-2xl px-1 py-1"></i>
                   </a>
                 </span>
               </span>
