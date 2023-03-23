@@ -6,8 +6,8 @@ Chaque équipe est composé d'un Lead Dev et de Développeurs. Ainsi chaque mois
 
 ## Score GT Metrix
 
-Performance : 78% - B
-Structure : 97%
+Performance : 100% - A
+Structure : 100%
 
 ## 📝 Etapes
 
