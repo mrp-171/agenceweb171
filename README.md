@@ -73,8 +73,8 @@ Each team is composed of a Lead Dev and Developers. So every month or so, when a
 
 ### GT Metrix score
 
-Performance : 78% - B
-Structure : 97%
+Performance : 100% - A
+Structure : 100%
 
 ### 📝Steps
 
